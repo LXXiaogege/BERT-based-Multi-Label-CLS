@@ -13,7 +13,8 @@ from torch import nn
 import torch
 from torch.utils.tensorboard import SummaryWriter
 import numpy as np
-from sklearn.metrics import confusion_matrix, classification_report
+from sklearn.metrics import confusion_matrix, classification_report, multilabel_confusion_matrix
+from sklearn.metrics import f1_score, roc_auc_score, accuracy_score
 import json
 import argparse
 
@@ -30,7 +31,7 @@ def train(args):
 
     model = MultiLabelClassifier(model_path=args.model_path, output_dim=len(labels), is_freeze_bert=args.is_freeze_bert)
 
-    optimizer = AdamW(model.parameters(), lr=args.learning_rate, betas=(0.9, 0.999), weight_decay=0.95)
+    optimizer = AdamW(model.parameters(), lr=args.learning_rate, betas=(0.9, 0.999), weight_decay=args.weight_decay)
     # sigmoid + BCE Loss Function
     criterion = nn.BCEWithLogitsLoss()
     writer = SummaryWriter()
@@ -60,6 +61,7 @@ def train(args):
                                   np.mean(total_loss[-num_batches_show_loss:], all_batch_count % num_batches_show_loss))
                 print(
                     f"current loss {loss.item():.4f}, average loss {np.mean(total_loss):.4f}, latest average loss: {np.mean(total_loss[-num_batches_show_loss:]):.4f}")
+            eval(args, model, tokenizer, idx2label, len(labels), args.batch_size)
         # 每一轮次测试一次
         eval(args, model, tokenizer, idx2label, len(labels), args.batch_size)
 
@@ -70,19 +72,24 @@ def eval(args, model, tokenizer, idx2label, class_nums, batch_size):
     test_loader = load_dataset(data_path=args.test_dir, tokenizer=tokenizer, batch_size=batch_size, shuffle=False)
     pred_labels = []
     true_labels = []
+    sigmoid = torch.nn.Sigmoid()
     for batch in test_loader:
-        inputs = {k: v.to(device) for k, v in batch.items()}
+        inputs, true_label = batch
         pred = model(inputs)
-        _, y_pred = torch.max(pred, 1)
-        pred_labels.extend(y_pred.cpu().numpy())
-        true_labels.extend(inputs['labels'].cpu().numpy())
+        probs = sigmoid(pred)
+        y_pred = np.zeros(probs.shape)
+        y_pred[np.where(probs >= args.threshold)] = 1
 
-    class_names = list(idx2label.values())
-    report = classification_report(true_labels, pred_labels, target_names=class_names,
-                                   labels=range(class_nums))
-    print("Classification Report", report)
-    conf_matrix = confusion_matrix(true_labels, pred_labels, labels=range(class_nums))
-    print("Confusion Matrix", conf_matrix)
+        true_labels.extend(true_label.tolist())
+        pred_labels.extend(y_pred)
+
+    # todo multi_label_metrics 评价指标
+    f1_micro_average = f1_score(y_true=true_labels, y_pred=pred_labels, average='micro')
+    roc_auc = roc_auc_score(true_labels, pred_labels, average='micro')
+    accuracy = accuracy_score(true_labels, pred_labels)
+    metrics = {'f1': f1_micro_average,
+               'roc_auc': roc_auc,
+               'accuracy': accuracy}
 
 
 def argument_parse():
@@ -97,10 +104,15 @@ def argument_parse():
     parser.add_argument("--learning_rate", type=float, default=2e-5)
     parser.add_argument("--epochs", type=int, default=1)
     parser.add_argument("--num_batches_show_loss", type=int, default=10)
+    parser.add_argument("--batch_size", type=int, default=8)
+    parser.add_argument("--weight_decay", type=float, default=0.95)
 
+    # 评价指标阈值设置
+    parser.add_argument("--threshold", type=float, default=0.5)
+
+    # 模型参数设置
     parser.add_argument("--output_dim", type=int, default=10)
     parser.add_argument("--is_freeze_bert", type=bool, default=False)
-    parser.add_argument("--batch_size", type=int, default=8)
     return parser.parse_args()
 
 
