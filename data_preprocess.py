@@ -51,11 +51,11 @@ def load_dataset(data_path, tokenizer, args):
 if __name__ == '__main__':
     from sklearn.model_selection import train_test_split
 
-    data = pd.read_csv("dataset.csv", sep="\t")
-    labels = list(json.load(open("idx2label.json", "r")).values())
+    data = pd.read_csv("data/dataset.csv", sep="\t")
+    labels = list(json.load(open("data/idx2label.json", "r")).values())
     train_data, test_data = train_test_split(data, test_size=0.2, random_state=42, shuffle=True)
-    train_data.to_csv("train.csv", sep="\t", index=False)
-    test_data.to_csv("test.csv", sep="\t", index=False)
+    train_data.to_csv("data/train.csv", sep="\t", index=False)
+    test_data.to_csv("data/test.csv", sep="\t", index=False)
     pass
     # tokenizer = BertTokenizer.from_pretrained("/Users/lvxin/datasets/models/bert-base-uncased'")
     # load_dataset(data_path="dataset.csv", tokenizer=tokenizer, batch_size=8, shuffle=True)

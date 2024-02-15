@@ -108,9 +108,9 @@ def argument_parse():
     parser = argparse.ArgumentParser()
     # 数据文件参数
     parser.add_argument("--model_path", type=str, default="/Users/lvxin/datasets/models/bert-base-uncased")
-    parser.add_argument("--train_dir", type=str, default="train.csv")
-    parser.add_argument("--test_dir", type=str, default="test.csv")
-    parser.add_argument("--idx2label_dir", type=str, default="idx2label.json")
+    parser.add_argument("--train_dir", type=str, default="data/train.csv")
+    parser.add_argument("--test_dir", type=str, default="data/test.csv")
+    parser.add_argument("--idx2label_dir", type=str, default="data/idx2label.json")
     parser.add_argument("--sep", type=str, default="\t")
     parser.add_argument("--text_filed", type=str, default="Tweet")
 
