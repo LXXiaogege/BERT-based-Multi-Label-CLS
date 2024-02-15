@@ -17,6 +17,7 @@ from sklearn.metrics import classification_report, multilabel_confusion_matrix
 from sklearn.metrics import f1_score, roc_auc_score, accuracy_score
 import json
 import argparse
+import os
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -40,6 +41,8 @@ def train(args):
     # sigmoid + BCE Loss Function
     criterion = nn.BCEWithLogitsLoss()
     writer = SummaryWriter()
+    if not os.path.exists("checkpoint"):
+        os.makedirs("checkpoint")
 
     # 训练时的参数设置
     num_batches_show_loss = args.num_batches_show_loss
@@ -68,6 +71,14 @@ def train(args):
                     f"current loss {loss.item():.4f}, average loss {np.mean(total_loss):.4f}, latest average loss: {np.mean(total_loss[-num_batches_show_loss:]):.4f}")
         # 每一轮次测试一次
         evaluate(args, model, tokenizer)
+
+        try:
+            torch.save(
+                {
+                    'model_state_dict': model.state_dict(),
+                }, f"checkpoint/fine_tuned_bert_model_{epoch}.pth")
+        except OSError as error:
+            print(f"OS error: {error}")
 
 
 def evaluate(args, model, tokenizer):
