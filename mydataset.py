@@ -9,8 +9,8 @@ from torch.utils.data import Dataset, DataLoader
 import pandas as pd
 from transformers import BertTokenizer
 import torch
-
-tokenizer = BertTokenizer.from_pretrained('/Users/lvxin/datasets/models/bert-base-uncased')
+import json
+from functools import partial
 
 
 class MyDataset(Dataset):
@@ -18,10 +18,7 @@ class MyDataset(Dataset):
         self.data = pd.read_csv(data_path, sep="\t")
 
         self.text_filed = "Tweet"
-        # label2idx
-        self.labels = self.data.columns[2:].tolist()
-        self.label2idx = {label: idx for idx, label in enumerate(self.labels)}
-        self.idx2label = {idx: label for label, idx in self.label2idx.items()}
+        self.labels = list(json.load(open("idx2label.json", "r")).values())
 
     def __len__(self):
         return len(self.data)
@@ -32,7 +29,7 @@ class MyDataset(Dataset):
         return text, label
 
 
-def collate_fn(batch):
+def collate_fn(batch, tokenizer):
     """
     collate_fn is used to merge a list of samples to form a mini-batch.
     """
@@ -45,11 +42,20 @@ def collate_fn(batch):
     return inputs, batch_labels
 
 
-def load_dataset(data_path, batch_size=8, shuffle=True):
+def load_dataset(data_path, tokenizer, batch_size=8, shuffle=True):
     dataset = MyDataset(data_path=data_path)
-    dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=shuffle, collate_fn=collate_fn)
-    return dataloader, dataset.labels, dataset.label2idx, dataset.idx2label
+    my_partial_collate_fn = partial(collate_fn, tokenizer=tokenizer)
+    dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=shuffle, collate_fn=my_partial_collate_fn)
+    return dataloader
 
 
 if __name__ == '__main__':
-    load_dataset(data_path="dataset.csv", batch_size=8, shuffle=True)
+    from sklearn.model_selection import train_test_split
+    data = pd.read_csv("dataset.csv", sep="\t")
+    labels = list(json.load(open("idx2label.json", "r")).values())
+    train_data, test_data = train_test_split(data, test_size=0.2, random_state=42, shuffle=True)
+    train_data.to_csv("train.csv", sep="\t", index=False)
+    test_data.to_csv("test.csv", sep="\t", index=False)
+    pass
+    # tokenizer = BertTokenizer.from_pretrained("/Users/lvxin/datasets/models/bert-base-uncased'")
+    # load_dataset(data_path="dataset.csv", tokenizer=tokenizer, batch_size=8, shuffle=True)
