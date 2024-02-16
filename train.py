@@ -14,7 +14,7 @@ import torch
 from torch.utils.tensorboard import SummaryWriter
 import numpy as np
 from sklearn.metrics import classification_report, multilabel_confusion_matrix
-from sklearn.metrics import f1_score, roc_auc_score, accuracy_score
+from sklearn.metrics import f1_score, roc_auc_score, accuracy_score, zero_one_loss, hamming_loss, precision_score
 import json
 import argparse
 import os
@@ -56,8 +56,8 @@ def train(args):
         for batch in train_loader:
             all_batch_count += 1
             inputs, true_labels = batch
-            pred = model(inputs)
-            loss = criterion(pred, true_labels)
+            pred = model((inputs['input_ids'].to(device), inputs['attention_mask'].to(device)))
+            loss = criterion(pred, true_labels.to(device))
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
@@ -69,8 +69,9 @@ def train(args):
                                   np.mean(total_loss[-num_batches_show_loss:], all_batch_count % num_batches_show_loss))
                 print(
                     f"current loss {loss.item():.4f}, average loss {np.mean(total_loss):.4f}, latest average loss: {np.mean(total_loss[-num_batches_show_loss:]):.4f}")
+            evaluate(args, model, tokenizer, target_names=labels)
         # 每一轮次测试一次
-        evaluate(args, model, tokenizer)
+        evaluate(args, model, tokenizer, target_names=labels)
 
         try:
             torch.save(
@@ -81,7 +82,7 @@ def train(args):
             print(f"OS error: {error}")
 
 
-def evaluate(args, model, tokenizer):
+def evaluate(args, model, tokenizer, target_names):
     """
     在测试集上评估模型
     """
@@ -93,21 +94,28 @@ def evaluate(args, model, tokenizer):
     sigmoid = torch.nn.Sigmoid()
     for batch in test_loader:
         inputs, true_label = batch
-        pred = model(inputs)
+        pred = model((inputs['input_ids'].to(device), inputs['attention_mask'].to(device)))
         probs = sigmoid(pred)
         y_pred = np.zeros(probs.shape)
-        y_pred[np.where(probs >= args.threshold)] = 1
+        y_pred[np.where(probs.cpu() >= args.threshold)] = 1
 
         true_labels.extend(true_label.tolist())
         pred_labels.extend(y_pred)
 
-    f1_micro_average = f1_score(y_true=true_labels, y_pred=pred_labels, average='micro', zero_division=0)
-    roc_auc = roc_auc_score(true_labels, pred_labels, average='micro')
-    accuracy = accuracy_score(true_labels, pred_labels)
-    report = classification_report(true_labels, pred_labels)
-    confusion_matrix = multilabel_confusion_matrix(y_true=true_labels, y_pred=pred_labels)
+    f1_average = f1_score(y_true=true_labels, y_pred=pred_labels, average='samples', zero_division=0)
+    roc_auc = roc_auc_score(true_labels, pred_labels, average='samples',labels=range(len(target_names)))
+    accuracy = accuracy_score(true_labels, pred_labels, normalize=True, sample_weight=None)
+    precision = precision_score(y_true=true_labels, y_pred=pred_labels, average='samples', zero_division=0)
+    hamming = hamming_loss(y_true=true_labels, y_pred=pred_labels)  # hamming loss
+    zero_one = zero_one_loss(y_true=true_labels, y_pred=pred_labels)  # 0-1 loss
 
-    print(f"micro f1 score: {f1_micro_average:.4f}, roc_auc: {roc_auc:.4f}, accuracy: {accuracy:.4f}")
+    report = classification_report(true_labels, pred_labels, zero_division=0, target_names=target_names,
+                                   labels=range(len(target_names)))
+    confusion_matrix = multilabel_confusion_matrix(y_true=true_labels, y_pred=pred_labels,
+                                                   labels=range(len(target_names)))
+
+    print(f"hamming loss: {hamming:.4f}, zero_one_loss: {zero_one:.4f}")
+    print(f"f1 score: {f1_average:.4f}, roc_auc: {roc_auc:.4f}, accuracy: {accuracy:.4f}, precision: {precision:.4f}")
     print("classification report:", report)
     print("confusion_matrix:", confusion_matrix)
 
@@ -120,7 +128,7 @@ def argument_parse():
     # 数据文件参数
     parser.add_argument("--model_path", type=str, default="/Users/lvxin/datasets/models/bert-base-uncased")
     parser.add_argument("--train_dir", type=str, default="data/train.csv")
-    parser.add_argument("--test_dir", type=str, default="data/test.csv")
+    parser.add_argument("--test_dir", type=str, default="data/test_1.csv")
     parser.add_argument("--idx2label_dir", type=str, default="data/idx2label.json")
     parser.add_argument("--sep", type=str, default="\t")
     parser.add_argument("--text_filed", type=str, default="Tweet")

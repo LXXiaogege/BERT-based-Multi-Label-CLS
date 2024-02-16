@@ -21,11 +21,13 @@ class MultiLabelClassifier(nn.Module):
         self.fc = nn.Linear(self.input_dim, self.output_dim, bias=True)
 
     def forward(self, x):
+        """Forward pass, returns logits."""
+        input_ids, attention_mask = x
         if self.is_freeze_bert:
             with torch.no_grad():
-                bert_outputs = self.bert_model(x['input_ids'], attention_mask=x['attention_mask'])
+                bert_outputs = self.bert_model(input_ids, attention_mask=attention_mask)
         else:
-            bert_outputs = self.bert_model(x['input_ids'], attention_mask=x['attention_mask'])
+            bert_outputs = self.bert_model(input_ids, attention_mask=attention_mask)
         pooled_output = bert_outputs.pooler_output
         pooled_output = self.dropout(pooled_output)
         outputs = self.fc(pooled_output)

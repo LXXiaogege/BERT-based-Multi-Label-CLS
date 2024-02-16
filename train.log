@@ -1,0 +1,1240 @@
+15.0s 1 2024-02-16 06:08:33.177762: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+15.0s 2 2024-02-16 06:08:33.177908: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+15.0s 3 2024-02-16 06:08:33.298410: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+15.2s 4 2024-02-16 06:08:33.177762: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+15.2s 5 2024-02-16 06:08:33.177908: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+15.2s 6 2024-02-16 06:08:33.298410: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+32.1s 7 epoch 0
+37.4s 8 current loss 0.6747, average loss 0.7205, latest average loss: 0.7205
+41.8s 9 current loss 0.6036, average loss 0.6816, latest average loss: 0.6427
+46.2s 10 current loss 0.6059, average loss 0.6509, latest average loss: 0.5894
+50.6s 11 current loss 0.5916, average loss 0.6244, latest average loss: 0.5451
+55.1s 12 current loss 0.4942, average loss 0.6013, latest average loss: 0.5087
+59.5s 13 current loss 0.4966, average loss 0.5856, latest average loss: 0.5072
+63.9s 14 current loss 0.4008, average loss 0.5692, latest average loss: 0.4708
+68.3s 15 current loss 0.4408, average loss 0.5585, latest average loss: 0.4836
+72.7s 16 current loss 0.4814, average loss 0.5475, latest average loss: 0.4594
+77.1s 17 current loss 0.5308, average loss 0.5416, latest average loss: 0.4890
+81.5s 18 current loss 0.4940, average loss 0.5353, latest average loss: 0.4722
+85.9s 19 current loss 0.4302, average loss 0.5285, latest average loss: 0.4530
+90.3s 20 current loss 0.4394, average loss 0.5245, latest average loss: 0.4764
+94.7s 21 current loss 0.5028, average loss 0.5205, latest average loss: 0.4695
+99.1s 22 current loss 0.4060, average loss 0.5178, latest average loss: 0.4790
+103.5s 23 current loss 0.4187, average loss 0.5123, latest average loss: 0.4305
+107.9s 24 current loss 0.3610, average loss 0.5066, latest average loss: 0.4160
+112.3s 25 current loss 0.4301, average loss 0.5017, latest average loss: 0.4178
+116.7s 26 current loss 0.4855, average loss 0.4979, latest average loss: 0.4290
+121.1s 27 current loss 0.3381, average loss 0.4926, latest average loss: 0.3922
+125.5s 28 current loss 0.4028, average loss 0.4881, latest average loss: 0.3985
+129.9s 29 current loss 0.3529, average loss 0.4848, latest average loss: 0.4158
+134.3s 30 current loss 0.3722, average loss 0.4804, latest average loss: 0.3833
+138.7s 31 current loss 0.4149, average loss 0.4764, latest average loss: 0.3839
+143.2s 32 current loss 0.5183, average loss 0.4743, latest average loss: 0.4244
+147.6s 33 current loss 0.2554, average loss 0.4708, latest average loss: 0.3833
+152.0s 34 current loss 0.3253, average loss 0.4673, latest average loss: 0.3774
+156.4s 35 current loss 0.4213, average loss 0.4637, latest average loss: 0.3655
+160.8s 36 current loss 0.3099, average loss 0.4602, latest average loss: 0.3620
+165.2s 37 current loss 0.4366, average loss 0.4578, latest average loss: 0.3891
+169.6s 38 current loss 0.3136, average loss 0.4554, latest average loss: 0.3835
+174.0s 39 current loss 0.3180, average loss 0.4527, latest average loss: 0.3677
+178.4s 40 current loss 0.3587, average loss 0.4494, latest average loss: 0.3441
+182.8s 41 current loss 0.2947, average loss 0.4469, latest average loss: 0.3646
+187.2s 42 current loss 0.4558, average loss 0.4455, latest average loss: 0.3985
+191.6s 43 current loss 0.3309, average loss 0.4430, latest average loss: 0.3559
+196.0s 44 current loss 0.4261, average loss 0.4406, latest average loss: 0.3535
+200.4s 45 current loss 0.3630, average loss 0.4386, latest average loss: 0.3647
+204.8s 46 current loss 0.2710, average loss 0.4358, latest average loss: 0.3295
+209.2s 47 current loss 0.2314, average loss 0.4338, latest average loss: 0.3547
+213.6s 48 current loss 0.2883, average loss 0.4319, latest average loss: 0.3574
+218.0s 49 current loss 0.4352, average loss 0.4301, latest average loss: 0.3571
+222.4s 50 current loss 0.3542, average loss 0.4287, latest average loss: 0.3661
+226.8s 51 current loss 0.2839, average loss 0.4264, latest average loss: 0.3277
+231.2s 52 current loss 0.3314, average loss 0.4243, latest average loss: 0.3353
+235.6s 53 current loss 0.3543, average loss 0.4224, latest average loss: 0.3336
+240.0s 54 current loss 0.2752, average loss 0.4206, latest average loss: 0.3403
+244.4s 55 current loss 0.4034, average loss 0.4194, latest average loss: 0.3624
+248.8s 56 current loss 0.3900, average loss 0.4186, latest average loss: 0.3806
+253.2s 57 current loss 0.2510, average loss 0.4167, latest average loss: 0.3241
+257.6s 58 current loss 0.3810, average loss 0.4152, latest average loss: 0.3365
+262.0s 59 current loss 0.3899, average loss 0.4143, latest average loss: 0.3695
+266.4s 60 current loss 0.3895, average loss 0.4126, latest average loss: 0.3239
+270.8s 61 current loss 0.3095, average loss 0.4108, latest average loss: 0.3178
+275.2s 62 current loss 0.4195, average loss 0.4092, latest average loss: 0.3214
+279.6s 63 current loss 0.3807, average loss 0.4081, latest average loss: 0.3462
+284.0s 64 current loss 0.2583, average loss 0.4064, latest average loss: 0.3148
+288.4s 65 current loss 0.3576, average loss 0.4053, latest average loss: 0.3422
+292.8s 66 current loss 0.4418, average loss 0.4045, latest average loss: 0.3575
+297.2s 67 current loss 0.3901, average loss 0.4036, latest average loss: 0.3518
+301.6s 68 current loss 0.2572, average loss 0.4025, latest average loss: 0.3366
+306.0s 69 current loss 0.3155, average loss 0.4010, latest average loss: 0.3078
+310.4s 70 current loss 0.1848, average loss 0.3994, latest average loss: 0.2991
+314.8s 71 current loss 0.4120, average loss 0.3988, latest average loss: 0.3638
+319.2s 72 current loss 0.3079, average loss 0.3983, latest average loss: 0.3613
+323.6s 73 current loss 0.2495, average loss 0.3973, latest average loss: 0.3344
+328.0s 74 current loss 0.2652, average loss 0.3961, latest average loss: 0.3191
+332.4s 75 current loss 0.3627, average loss 0.3959, latest average loss: 0.3790
+334.0s 76 *********evaluate*********
+359.9s 77 hamming loss: 0.1329, zero_one_loss: 0.7602
+359.9s 78 classification report:               precision    recall  f1-score   support
+359.9s 79 
+359.9s 80 0       0.81      0.68      0.74       507
+359.9s 81 1       0.00      0.00      0.00       200
+359.9s 82 2       0.73      0.63      0.68       516
+359.9s 83 3       0.88      0.65      0.75       283
+359.9s 84 4       0.83      0.74      0.78       507
+359.9s 85 5       0.79      0.24      0.37       136
+359.9s 86 6       0.71      0.74      0.72       400
+359.9s 87 7       0.41      0.12      0.19       166
+359.9s 88 8       0.82      0.49      0.62       424
+359.9s 89 9       0.00      0.00      0.00        76
+359.9s 90 10       0.00      0.00      0.00        71
+359.9s 91 
+359.9s 92 micro avg       0.78      0.54      0.64      3286
+359.9s 93 macro avg       0.54      0.39      0.44      3286
+359.9s 94 weighted avg       0.69      0.54      0.60      3286
+359.9s 95 samples avg       0.70      0.57      0.60      3286
+359.9s 96 
+359.9s 97 confusion_matrix: [[[ 782   79]
+359.9s 98 [ 160  347]]
+359.9s 99 
+359.9s 100 [[1168    0]
+359.9s 101 [ 200    0]]
+359.9s 102 
+359.9s 103 [[ 734  118]
+359.9s 104 [ 189  327]]
+359.9s 105 
+359.9s 106 [[1060   25]
+359.9s 107 [ 100  183]]
+359.9s 108 
+359.9s 109 [[ 784   77]
+359.9s 110 [ 132  375]]
+359.9s 111 
+359.9s 112 [[1223    9]
+359.9s 113 [ 103   33]]
+359.9s 114 
+359.9s 115 [[ 848  120]
+359.9s 116 [ 105  295]]
+359.9s 117 
+359.9s 118 [[1173   29]
+359.9s 119 [ 146   20]]
+359.9s 120 
+359.9s 121 [[ 898   46]
+359.9s 122 [ 215  209]]
+359.9s 123 
+359.9s 124 [[1292    0]
+359.9s 125 [  76    0]]
+359.9s 126 
+359.9s 127 [[1297    0]
+359.9s 128 [  71    0]]]
+360.6s 129 epoch 1
+363.2s 130 current loss 0.3197, average loss 0.3947, latest average loss: 0.3175
+367.7s 131 current loss 0.3485, average loss 0.3934, latest average loss: 0.2994
+372.1s 132 current loss 0.2601, average loss 0.3920, latest average loss: 0.2993
+376.5s 133 current loss 0.2405, average loss 0.3906, latest average loss: 0.2858
+380.9s 134 current loss 0.2375, average loss 0.3894, latest average loss: 0.3081
+385.3s 135 current loss 0.2666, average loss 0.3881, latest average loss: 0.2910
+389.7s 136 current loss 0.2392, average loss 0.3870, latest average loss: 0.3038
+394.1s 137 current loss 0.3014, average loss 0.3856, latest average loss: 0.2800
+398.5s 138 current loss 0.2943, average loss 0.3841, latest average loss: 0.2710
+402.9s 139 current loss 0.3967, average loss 0.3835, latest average loss: 0.3388
+407.3s 140 current loss 0.3047, average loss 0.3824, latest average loss: 0.2973
+411.7s 141 current loss 0.2895, average loss 0.3812, latest average loss: 0.2824
+416.1s 142 current loss 0.3412, average loss 0.3801, latest average loss: 0.2938
+420.5s 143 current loss 0.3380, average loss 0.3796, latest average loss: 0.3388
+424.9s 144 current loss 0.2254, average loss 0.3785, latest average loss: 0.2881
+429.3s 145 current loss 0.3360, average loss 0.3774, latest average loss: 0.2831
+433.7s 146 current loss 0.2061, average loss 0.3762, latest average loss: 0.2832
+438.1s 147 current loss 0.3509, average loss 0.3753, latest average loss: 0.2973
+442.5s 148 current loss 0.2956, average loss 0.3743, latest average loss: 0.2884
+446.9s 149 current loss 0.2665, average loss 0.3733, latest average loss: 0.2866
+451.3s 150 current loss 0.2425, average loss 0.3723, latest average loss: 0.2855
+455.7s 151 current loss 0.3021, average loss 0.3715, latest average loss: 0.2965
+460.1s 152 current loss 0.2188, average loss 0.3705, latest average loss: 0.2836
+464.5s 153 current loss 0.3228, average loss 0.3696, latest average loss: 0.2810
+468.9s 154 current loss 0.2752, average loss 0.3688, latest average loss: 0.3027
+473.3s 155 current loss 0.2161, average loss 0.3681, latest average loss: 0.2998
+477.7s 156 current loss 0.4001, average loss 0.3672, latest average loss: 0.2777
+482.1s 157 current loss 0.2585, average loss 0.3665, latest average loss: 0.2999
+486.5s 158 current loss 0.2801, average loss 0.3658, latest average loss: 0.3059
+490.9s 159 current loss 0.2953, average loss 0.3650, latest average loss: 0.2861
+495.2s 160 current loss 0.3634, average loss 0.3645, latest average loss: 0.3100
+499.7s 161 current loss 0.2903, average loss 0.3637, latest average loss: 0.2910
+504.1s 162 current loss 0.2843, average loss 0.3631, latest average loss: 0.3038
+508.4s 163 current loss 0.2370, average loss 0.3621, latest average loss: 0.2595
+512.9s 164 current loss 0.2578, average loss 0.3613, latest average loss: 0.2787
+517.3s 165 current loss 0.2574, average loss 0.3607, latest average loss: 0.2980
+521.7s 166 current loss 0.2304, average loss 0.3599, latest average loss: 0.2786
+526.1s 167 current loss 0.3079, average loss 0.3594, latest average loss: 0.3001
+530.5s 168 current loss 0.3063, average loss 0.3587, latest average loss: 0.2886
+534.8s 169 current loss 0.2142, average loss 0.3579, latest average loss: 0.2722
+539.2s 170 current loss 0.2996, average loss 0.3575, latest average loss: 0.3111
+543.6s 171 current loss 0.3106, average loss 0.3570, latest average loss: 0.3064
+548.0s 172 current loss 0.4057, average loss 0.3564, latest average loss: 0.2889
+552.4s 173 current loss 0.2449, average loss 0.3559, latest average loss: 0.3072
+556.8s 174 current loss 0.2825, average loss 0.3554, latest average loss: 0.2999
+561.3s 175 current loss 0.2418, average loss 0.3548, latest average loss: 0.2776
+565.7s 176 current loss 0.4519, average loss 0.3544, latest average loss: 0.3072
+570.1s 177 current loss 0.2926, average loss 0.3538, latest average loss: 0.2928
+574.4s 178 current loss 0.3589, average loss 0.3533, latest average loss: 0.2935
+578.9s 179 current loss 0.4828, average loss 0.3531, latest average loss: 0.3260
+583.2s 180 current loss 0.1877, average loss 0.3523, latest average loss: 0.2665
+587.6s 181 current loss 0.3389, average loss 0.3516, latest average loss: 0.2678
+592.0s 182 current loss 0.2530, average loss 0.3510, latest average loss: 0.2699
+596.4s 183 current loss 0.2789, average loss 0.3503, latest average loss: 0.2751
+600.8s 184 current loss 0.2488, average loss 0.3499, latest average loss: 0.3003
+605.2s 185 current loss 0.2902, average loss 0.3493, latest average loss: 0.2735
+609.6s 186 current loss 0.2452, average loss 0.3486, latest average loss: 0.2610
+614.0s 187 current loss 0.2223, average loss 0.3482, latest average loss: 0.3005
+618.3s 188 current loss 0.4006, average loss 0.3478, latest average loss: 0.2988
+622.7s 189 current loss 0.2746, average loss 0.3473, latest average loss: 0.2721
+627.1s 190 current loss 0.3987, average loss 0.3469, latest average loss: 0.3050
+631.5s 191 current loss 0.3605, average loss 0.3466, latest average loss: 0.3001
+635.9s 192 current loss 0.1860, average loss 0.3459, latest average loss: 0.2644
+640.3s 193 current loss 0.2505, average loss 0.3454, latest average loss: 0.2748
+644.7s 194 current loss 0.3322, average loss 0.3449, latest average loss: 0.2809
+649.1s 195 current loss 0.2856, average loss 0.3442, latest average loss: 0.2540
+653.5s 196 current loss 0.2933, average loss 0.3438, latest average loss: 0.2911
+657.9s 197 current loss 0.2246, average loss 0.3434, latest average loss: 0.2902
+661.3s 198 *********evaluate*********
+687.1s 199 hamming loss: 0.1287, zero_one_loss: 0.7493
+687.1s 200 classification report:               precision    recall  f1-score   support
+687.1s 201 
+687.1s 202 0       0.82      0.77      0.80       507
+687.1s 203 1       0.85      0.09      0.15       200
+687.1s 204 2       0.73      0.72      0.73       516
+687.1s 205 3       0.89      0.62      0.73       283
+687.1s 206 4       0.83      0.79      0.81       507
+687.1s 207 5       0.59      0.44      0.50       136
+687.1s 208 6       0.69      0.77      0.73       400
+687.1s 209 7       0.47      0.31      0.37       166
+687.1s 210 8       0.65      0.73      0.69       424
+687.1s 211 9       0.00      0.00      0.00        76
+687.1s 212 10       0.00      0.00      0.00        71
+687.1s 213 
+687.1s 214 micro avg       0.74      0.63      0.68      3286
+687.1s 215 macro avg       0.59      0.48      0.50      3286
+687.1s 216 weighted avg       0.71      0.63      0.65      3286
+687.1s 217 samples avg       0.71      0.65      0.65      3286
+687.1s 218 
+687.1s 219 confusion_matrix: [[[ 776   85]
+687.1s 220 [ 116  391]]
+687.1s 221 
+687.1s 222 [[1165    3]
+687.1s 223 [ 183   17]]
+687.1s 224 
+687.1s 225 [[ 714  138]
+687.1s 226 [ 143  373]]
+687.1s 227 
+687.1s 228 [[1063   22]
+687.1s 229 [ 107  176]]
+687.1s 230 
+687.1s 231 [[ 780   81]
+687.1s 232 [ 109  398]]
+687.1s 233 
+687.1s 234 [[1190   42]
+687.1s 235 [  76   60]]
+687.1s 236 
+687.1s 237 [[ 828  140]
+687.1s 238 [  91  309]]
+687.1s 239 
+687.1s 240 [[1144   58]
+687.1s 241 [ 115   51]]
+687.1s 242 
+687.1s 243 [[ 779  165]
+687.1s 244 [ 115  309]]
+687.1s 245 
+687.1s 246 [[1292    0]
+687.1s 247 [  76    0]]
+687.1s 248 
+687.1s 249 [[1297    0]
+687.1s 250 [  71    0]]]
+687.8s 251 epoch 2
+688.7s 252 current loss 0.2716, average loss 0.3430, latest average loss: 0.2890
+693.0s 253 current loss 0.2557, average loss 0.3422, latest average loss: 0.2223
+697.4s 254 current loss 0.2112, average loss 0.3417, latest average loss: 0.2698
+701.8s 255 current loss 0.4054, average loss 0.3412, latest average loss: 0.2754
+706.2s 256 current loss 0.2267, average loss 0.3406, latest average loss: 0.2573
+710.6s 257 current loss 0.2250, average loss 0.3399, latest average loss: 0.2504
+715.0s 258 current loss 0.1987, average loss 0.3396, latest average loss: 0.2894
+719.4s 259 current loss 0.1500, average loss 0.3389, latest average loss: 0.2397
+723.8s 260 current loss 0.3392, average loss 0.3385, latest average loss: 0.2770
+728.2s 261 current loss 0.2462, average loss 0.3381, latest average loss: 0.2831
+732.6s 262 current loss 0.2781, average loss 0.3375, latest average loss: 0.2442
+737.0s 263 current loss 0.2267, average loss 0.3369, latest average loss: 0.2479
+741.4s 264 current loss 0.2502, average loss 0.3362, latest average loss: 0.2438
+745.8s 265 current loss 0.2003, average loss 0.3357, latest average loss: 0.2622
+750.2s 266 current loss 0.2321, average loss 0.3350, latest average loss: 0.2240
+754.6s 267 current loss 0.3173, average loss 0.3347, latest average loss: 0.2833
+759.0s 268 current loss 0.2659, average loss 0.3340, latest average loss: 0.2408
+763.4s 269 current loss 0.2752, average loss 0.3333, latest average loss: 0.2203
+767.8s 270 current loss 0.2784, average loss 0.3328, latest average loss: 0.2550
+772.2s 271 current loss 0.1614, average loss 0.3322, latest average loss: 0.2323
+776.6s 272 current loss 0.2185, average loss 0.3315, latest average loss: 0.2264
+781.0s 273 current loss 0.2929, average loss 0.3309, latest average loss: 0.2429
+785.4s 274 current loss 0.2029, average loss 0.3303, latest average loss: 0.2287
+789.8s 275 current loss 0.2741, average loss 0.3296, latest average loss: 0.2238
+794.2s 276 current loss 0.2942, average loss 0.3292, latest average loss: 0.2613
+798.6s 277 current loss 0.1702, average loss 0.3288, latest average loss: 0.2679
+803.0s 278 current loss 0.1925, average loss 0.3284, latest average loss: 0.2603
+807.4s 279 current loss 0.2488, average loss 0.3279, latest average loss: 0.2468
+811.8s 280 current loss 0.2842, average loss 0.3274, latest average loss: 0.2530
+816.2s 281 current loss 0.2396, average loss 0.3269, latest average loss: 0.2422
+820.6s 282 current loss 0.2237, average loss 0.3264, latest average loss: 0.2457
+825.0s 283 current loss 0.3083, average loss 0.3259, latest average loss: 0.2314
+829.4s 284 current loss 0.2044, average loss 0.3252, latest average loss: 0.2152
+833.8s 285 current loss 0.1875, average loss 0.3247, latest average loss: 0.2313
+838.2s 286 current loss 0.2123, average loss 0.3243, latest average loss: 0.2539
+842.6s 287 current loss 0.2021, average loss 0.3239, latest average loss: 0.2711
+847.0s 288 current loss 0.2542, average loss 0.3234, latest average loss: 0.2253
+851.4s 289 current loss 0.1919, average loss 0.3228, latest average loss: 0.2172
+855.8s 290 current loss 0.1923, average loss 0.3224, latest average loss: 0.2607
+860.2s 291 current loss 0.2694, average loss 0.3219, latest average loss: 0.2333
+864.6s 292 current loss 0.2425, average loss 0.3215, latest average loss: 0.2447
+869.0s 293 current loss 0.2216, average loss 0.3210, latest average loss: 0.2335
+873.5s 294 current loss 0.1910, average loss 0.3205, latest average loss: 0.2428
+877.8s 295 current loss 0.2761, average loss 0.3201, latest average loss: 0.2334
+882.2s 296 current loss 0.2961, average loss 0.3196, latest average loss: 0.2415
+886.6s 297 current loss 0.2224, average loss 0.3192, latest average loss: 0.2386
+891.0s 298 current loss 0.2445, average loss 0.3187, latest average loss: 0.2379
+895.4s 299 current loss 0.2628, average loss 0.3183, latest average loss: 0.2489
+899.8s 300 current loss 0.3205, average loss 0.3180, latest average loss: 0.2451
+904.2s 301 current loss 0.2129, average loss 0.3175, latest average loss: 0.2380
+908.6s 302 current loss 0.2885, average loss 0.3170, latest average loss: 0.2217
+913.0s 303 current loss 0.2331, average loss 0.3169, latest average loss: 0.2916
+917.4s 304 current loss 0.3105, average loss 0.3164, latest average loss: 0.2196
+921.8s 305 current loss 0.2868, average loss 0.3162, latest average loss: 0.2817
+926.2s 306 current loss 0.2422, average loss 0.3157, latest average loss: 0.2266
+930.6s 307 current loss 0.2500, average loss 0.3154, latest average loss: 0.2483
+935.0s 308 current loss 0.2042, average loss 0.3150, latest average loss: 0.2498
+939.4s 309 current loss 0.1859, average loss 0.3146, latest average loss: 0.2435
+943.8s 310 current loss 0.1928, average loss 0.3142, latest average loss: 0.2200
+948.2s 311 current loss 0.3685, average loss 0.3138, latest average loss: 0.2370
+952.6s 312 current loss 0.2695, average loss 0.3134, latest average loss: 0.2469
+957.0s 313 current loss 0.2173, average loss 0.3130, latest average loss: 0.2346
+961.4s 314 current loss 0.2831, average loss 0.3128, latest average loss: 0.2726
+965.9s 315 current loss 0.1754, average loss 0.3126, latest average loss: 0.2577
+970.2s 316 current loss 0.3313, average loss 0.3122, latest average loss: 0.2491
+974.6s 317 current loss 0.2988, average loss 0.3120, latest average loss: 0.2566
+979.0s 318 current loss 0.2345, average loss 0.3115, latest average loss: 0.2249
+983.4s 319 current loss 0.2507, average loss 0.3112, latest average loss: 0.2534
+987.8s 320 current loss 0.3243, average loss 0.3110, latest average loss: 0.2537
+988.6s 321 *********evaluate*********
+1014.5s 322 hamming loss: 0.1293, zero_one_loss: 0.7515
+1014.5s 323 classification report:               precision    recall  f1-score   support
+1014.5s 324 
+1014.5s 325 0       0.80      0.72      0.76       507
+1014.5s 326 1       0.42      0.21      0.28       200
+1014.5s 327 2       0.74      0.70      0.72       516
+1014.5s 328 3       0.85      0.66      0.75       283
+1014.5s 329 4       0.86      0.77      0.81       507
+1014.5s 330 5       0.63      0.46      0.53       136
+1014.5s 331 6       0.72      0.69      0.70       400
+1014.5s 332 7       0.49      0.28      0.36       166
+1014.5s 333 8       0.78      0.55      0.64       424
+1014.5s 334 9       1.00      0.09      0.17        76
+1014.5s 335 10       0.50      0.01      0.03        71
+1014.5s 336 
+1014.5s 337 micro avg       0.76      0.60      0.67      3286
+1014.5s 338 macro avg       0.71      0.47      0.52      3286
+1014.5s 339 weighted avg       0.75      0.60      0.65      3286
+1014.5s 340 samples avg       0.74      0.62      0.64      3286
+1014.5s 341 
+1014.5s 342 confusion_matrix: [[[ 771   90]
+1014.5s 343 [ 144  363]]
+1014.5s 344 
+1014.5s 345 [[1111   57]
+1014.5s 346 [ 158   42]]
+1014.5s 347 
+1014.5s 348 [[ 728  124]
+1014.5s 349 [ 157  359]]
+1014.5s 350 
+1014.5s 351 [[1052   33]
+1014.5s 352 [  95  188]]
+1014.5s 353 
+1014.5s 354 [[ 796   65]
+1014.5s 355 [ 117  390]]
+1014.5s 356 
+1014.5s 357 [[1196   36]
+1014.5s 358 [  74   62]]
+1014.5s 359 
+1014.5s 360 [[ 862  106]
+1014.5s 361 [ 126  274]]
+1014.5s 362 
+1014.5s 363 [[1154   48]
+1014.5s 364 [ 119   47]]
+1014.5s 365 
+1014.5s 366 [[ 879   65]
+1014.5s 367 [ 192  232]]
+1014.5s 368 
+1014.5s 369 [[1292    0]
+1014.5s 370 [  69    7]]
+1014.5s 371 
+1014.5s 372 [[1296    1]
+1014.5s 373 [  70    1]]]
+1015.1s 374 epoch 3
+1018.7s 375 current loss 0.1372, average loss 0.3106, latest average loss: 0.2438
+1023.1s 376 current loss 0.2184, average loss 0.3101, latest average loss: 0.2033
+1027.5s 377 current loss 0.2191, average loss 0.3097, latest average loss: 0.2222
+1031.9s 378 current loss 0.3159, average loss 0.3093, latest average loss: 0.2199
+1036.3s 379 current loss 0.1588, average loss 0.3089, latest average loss: 0.2215
+1040.6s 380 current loss 0.2761, average loss 0.3084, latest average loss: 0.2181
+1045.1s 381 current loss 0.2307, average loss 0.3080, latest average loss: 0.2245
+1049.5s 382 current loss 0.1849, average loss 0.3076, latest average loss: 0.2086
+1053.9s 383 current loss 0.2130, average loss 0.3072, latest average loss: 0.2342
+1058.3s 384 current loss 0.1726, average loss 0.3068, latest average loss: 0.2246
+1062.7s 385 current loss 0.1271, average loss 0.3064, latest average loss: 0.2056
+1067.1s 386 current loss 0.1523, average loss 0.3058, latest average loss: 0.1861
+1071.5s 387 current loss 0.2633, average loss 0.3054, latest average loss: 0.2145
+1075.9s 388 current loss 0.1640, average loss 0.3050, latest average loss: 0.2182
+1080.3s 389 current loss 0.3319, average loss 0.3048, latest average loss: 0.2547
+1084.7s 390 current loss 0.1247, average loss 0.3044, latest average loss: 0.2142
+1089.1s 391 current loss 0.2738, average loss 0.3041, latest average loss: 0.2412
+1093.5s 392 current loss 0.1630, average loss 0.3036, latest average loss: 0.2074
+1097.9s 393 current loss 0.2125, average loss 0.3032, latest average loss: 0.1989
+1102.3s 394 current loss 0.2660, average loss 0.3027, latest average loss: 0.1869
+1106.7s 395 current loss 0.2331, average loss 0.3023, latest average loss: 0.2229
+1111.1s 396 current loss 0.1989, average loss 0.3017, latest average loss: 0.1748
+1115.5s 397 current loss 0.1921, average loss 0.3012, latest average loss: 0.1860
+1119.9s 398 current loss 0.2285, average loss 0.3010, latest average loss: 0.2453
+1124.3s 399 current loss 0.2723, average loss 0.3006, latest average loss: 0.2025
+1128.7s 400 current loss 0.1344, average loss 0.3001, latest average loss: 0.1841
+1133.1s 401 current loss 0.2709, average loss 0.2997, latest average loss: 0.2233
+1137.5s 402 current loss 0.2376, average loss 0.2993, latest average loss: 0.2089
+1141.9s 403 current loss 0.1398, average loss 0.2989, latest average loss: 0.1911
+1146.3s 404 current loss 0.1903, average loss 0.2984, latest average loss: 0.1932
+1150.7s 405 current loss 0.2445, average loss 0.2981, latest average loss: 0.2113
+1155.1s 406 current loss 0.1459, average loss 0.2978, latest average loss: 0.2308
+1159.5s 407 current loss 0.1443, average loss 0.2974, latest average loss: 0.2105
+1163.9s 408 current loss 0.2230, average loss 0.2970, latest average loss: 0.1979
+1168.3s 409 current loss 0.2102, average loss 0.2966, latest average loss: 0.2132
+1172.7s 410 current loss 0.2749, average loss 0.2963, latest average loss: 0.2062
+1177.1s 411 current loss 0.2019, average loss 0.2959, latest average loss: 0.2062
+1181.5s 412 current loss 0.1894, average loss 0.2955, latest average loss: 0.1910
+1185.9s 413 current loss 0.2057, average loss 0.2952, latest average loss: 0.2234
+1190.3s 414 current loss 0.2624, average loss 0.2947, latest average loss: 0.1919
+1194.7s 415 current loss 0.1632, average loss 0.2944, latest average loss: 0.2094
+1199.1s 416 current loss 0.2383, average loss 0.2940, latest average loss: 0.1998
+1203.5s 417 current loss 0.1908, average loss 0.2938, latest average loss: 0.2331
+1207.9s 418 current loss 0.1329, average loss 0.2935, latest average loss: 0.2192
+1212.3s 419 current loss 0.1925, average loss 0.2931, latest average loss: 0.2132
+1216.7s 420 current loss 0.1776, average loss 0.2929, latest average loss: 0.2326
+1221.1s 421 current loss 0.1924, average loss 0.2925, latest average loss: 0.2035
+1225.5s 422 current loss 0.1877, average loss 0.2922, latest average loss: 0.1924
+1229.9s 423 current loss 0.1898, average loss 0.2918, latest average loss: 0.1968
+1234.2s 424 current loss 0.2445, average loss 0.2916, latest average loss: 0.2381
+1238.6s 425 current loss 0.2077, average loss 0.2913, latest average loss: 0.2166
+1243.0s 426 current loss 0.2795, average loss 0.2910, latest average loss: 0.2236
+1247.5s 427 current loss 0.1941, average loss 0.2907, latest average loss: 0.2122
+1251.9s 428 current loss 0.1977, average loss 0.2905, latest average loss: 0.2294
+1256.3s 429 current loss 0.2314, average loss 0.2902, latest average loss: 0.2219
+1260.7s 430 current loss 0.2100, average loss 0.2899, latest average loss: 0.2192
+1265.1s 431 current loss 0.2977, average loss 0.2896, latest average loss: 0.2014
+1269.5s 432 current loss 0.3211, average loss 0.2894, latest average loss: 0.2396
+1273.9s 433 current loss 0.1569, average loss 0.2892, latest average loss: 0.2325
+1278.3s 434 current loss 0.2320, average loss 0.2890, latest average loss: 0.2519
+1282.7s 435 current loss 0.1842, average loss 0.2886, latest average loss: 0.1786
+1287.1s 436 current loss 0.2221, average loss 0.2883, latest average loss: 0.2063
+1291.5s 437 current loss 0.2655, average loss 0.2880, latest average loss: 0.1969
+1295.9s 438 current loss 0.2194, average loss 0.2876, latest average loss: 0.1854
+1300.2s 439 current loss 0.1350, average loss 0.2872, latest average loss: 0.1833
+1304.6s 440 current loss 0.2329, average loss 0.2869, latest average loss: 0.2027
+1309.1s 441 current loss 0.2371, average loss 0.2867, latest average loss: 0.2229
+1313.5s 442 current loss 0.1962, average loss 0.2865, latest average loss: 0.2306
+1316.0s 443 *********evaluate*********
+1342.0s 444 hamming loss: 0.1279, zero_one_loss: 0.7390
+1342.0s 445 classification report:               precision    recall  f1-score   support
+1342.0s 446 
+1342.0s 447 0       0.82      0.70      0.75       507
+1342.0s 448 1       0.54      0.18      0.28       200
+1342.0s 449 2       0.76      0.68      0.72       516
+1342.0s 450 3       0.77      0.75      0.76       283
+1342.0s 451 4       0.83      0.79      0.81       507
+1342.0s 452 5       0.69      0.41      0.52       136
+1342.0s 453 6       0.72      0.68      0.70       400
+1342.0s 454 7       0.53      0.26      0.35       166
+1342.0s 455 8       0.82      0.48      0.61       424
+1342.0s 456 9       0.73      0.25      0.37        76
+1342.0s 457 10       1.00      0.01      0.03        71
+1342.0s 458 
+1342.0s 459 micro avg       0.77      0.59      0.67      3286
+1342.0s 460 macro avg       0.75      0.47      0.53      3286
+1342.0s 461 weighted avg       0.76      0.59      0.65      3286
+1342.0s 462 samples avg       0.73      0.62      0.63      3286
+1342.0s 463 
+1342.0s 464 confusion_matrix: [[[ 781   80]
+1342.0s 465 [ 153  354]]
+1342.0s 466 
+1342.0s 467 [[1136   32]
+1342.0s 468 [ 163   37]]
+1342.0s 469 
+1342.0s 470 [[ 742  110]
+1342.0s 471 [ 167  349]]
+1342.0s 472 
+1342.0s 473 [[1021   64]
+1342.0s 474 [  71  212]]
+1342.0s 475 
+1342.0s 476 [[ 777   84]
+1342.0s 477 [ 104  403]]
+1342.0s 478 
+1342.0s 479 [[1207   25]
+1342.0s 480 [  80   56]]
+1342.0s 481 
+1342.0s 482 [[ 865  103]
+1342.0s 483 [ 129  271]]
+1342.0s 484 
+1342.0s 485 [[1164   38]
+1342.0s 486 [ 123   43]]
+1342.0s 487 
+1342.0s 488 [[ 900   44]
+1342.0s 489 [ 221  203]]
+1342.0s 490 
+1342.0s 491 [[1285    7]
+1342.0s 492 [  57   19]]
+1342.0s 493 
+1342.0s 494 [[1297    0]
+1342.0s 495 [  70    1]]]
+1342.6s 496 epoch 4
+1344.4s 497 current loss 0.1701, average loss 0.2861, latest average loss: 0.1888
+1348.8s 498 current loss 0.1782, average loss 0.2856, latest average loss: 0.1592
+1353.2s 499 current loss 0.2637, average loss 0.2853, latest average loss: 0.1897
+1357.6s 500 current loss 0.1148, average loss 0.2849, latest average loss: 0.1829
+1362.0s 501 current loss 0.1825, average loss 0.2846, latest average loss: 0.1933
+1366.4s 502 current loss 0.1569, average loss 0.2842, latest average loss: 0.1864
+1370.8s 503 current loss 0.2048, average loss 0.2839, latest average loss: 0.1923
+1375.3s 504 current loss 0.2238, average loss 0.2835, latest average loss: 0.1609
+1379.6s 505 current loss 0.2628, average loss 0.2830, latest average loss: 0.1582
+1384.0s 506 current loss 0.2007, average loss 0.2826, latest average loss: 0.1631
+1388.5s 507 current loss 0.2115, average loss 0.2822, latest average loss: 0.1727
+1392.9s 508 current loss 0.1989, average loss 0.2819, latest average loss: 0.1858
+1397.3s 509 current loss 0.2025, average loss 0.2815, latest average loss: 0.1822
+1401.7s 510 current loss 0.2162, average loss 0.2812, latest average loss: 0.1974
+1406.1s 511 current loss 0.1487, average loss 0.2809, latest average loss: 0.1745
+1410.5s 512 current loss 0.1424, average loss 0.2805, latest average loss: 0.1821
+1414.9s 513 current loss 0.1799, average loss 0.2802, latest average loss: 0.1760
+1419.3s 514 current loss 0.1395, average loss 0.2798, latest average loss: 0.1724
+1423.7s 515 current loss 0.1248, average loss 0.2795, latest average loss: 0.1896
+1428.1s 516 current loss 0.1491, average loss 0.2791, latest average loss: 0.1790
+1432.5s 517 current loss 0.2234, average loss 0.2789, latest average loss: 0.2006
+1436.9s 518 current loss 0.2530, average loss 0.2786, latest average loss: 0.1904
+1441.3s 519 current loss 0.2168, average loss 0.2784, latest average loss: 0.2122
+1445.7s 520 current loss 0.1610, average loss 0.2780, latest average loss: 0.1762
+1450.1s 521 current loss 0.1763, average loss 0.2776, latest average loss: 0.1673
+1454.5s 522 current loss 0.1566, average loss 0.2773, latest average loss: 0.1852
+1458.9s 523 current loss 0.1459, average loss 0.2769, latest average loss: 0.1610
+1463.3s 524 current loss 0.2467, average loss 0.2766, latest average loss: 0.1851
+1467.7s 525 current loss 0.1457, average loss 0.2763, latest average loss: 0.1703
+1472.1s 526 current loss 0.1582, average loss 0.2760, latest average loss: 0.2017
+1476.5s 527 current loss 0.2001, average loss 0.2757, latest average loss: 0.1808
+1480.9s 528 current loss 0.1404, average loss 0.2754, latest average loss: 0.1793
+1485.3s 529 current loss 0.1936, average loss 0.2752, latest average loss: 0.2201
+1489.7s 530 current loss 0.1652, average loss 0.2750, latest average loss: 0.2117
+1494.1s 531 current loss 0.0995, average loss 0.2747, latest average loss: 0.1738
+1498.5s 532 current loss 0.1852, average loss 0.2745, latest average loss: 0.2030
+1502.9s 533 current loss 0.2118, average loss 0.2742, latest average loss: 0.2022
+1507.2s 534 current loss 0.1388, average loss 0.2740, latest average loss: 0.1907
+1511.6s 535 current loss 0.1687, average loss 0.2737, latest average loss: 0.2022
+1516.0s 536 current loss 0.1344, average loss 0.2735, latest average loss: 0.1899
+1520.4s 537 current loss 0.1234, average loss 0.2733, latest average loss: 0.2114
+1524.8s 538 current loss 0.2093, average loss 0.2730, latest average loss: 0.1915
+1529.3s 539 current loss 0.1592, average loss 0.2727, latest average loss: 0.1772
+1533.6s 540 current loss 0.1883, average loss 0.2724, latest average loss: 0.1913
+1538.0s 541 current loss 0.1200, average loss 0.2721, latest average loss: 0.1598
+1542.4s 542 current loss 0.2491, average loss 0.2718, latest average loss: 0.1941
+1546.8s 543 current loss 0.2481, average loss 0.2716, latest average loss: 0.1831
+1551.2s 544 current loss 0.1839, average loss 0.2714, latest average loss: 0.2058
+1555.6s 545 current loss 0.2368, average loss 0.2711, latest average loss: 0.1921
+1560.1s 546 current loss 0.1518, average loss 0.2710, latest average loss: 0.2217
+1564.4s 547 current loss 0.2013, average loss 0.2706, latest average loss: 0.1547
+1568.8s 548 current loss 0.1836, average loss 0.2704, latest average loss: 0.1895
+1573.2s 549 current loss 0.1339, average loss 0.2700, latest average loss: 0.1683
+1577.6s 550 current loss 0.1900, average loss 0.2698, latest average loss: 0.1743
+1582.0s 551 current loss 0.1715, average loss 0.2695, latest average loss: 0.2024
+1586.4s 552 current loss 0.1746, average loss 0.2694, latest average loss: 0.2067
+1590.8s 553 current loss 0.1250, average loss 0.2691, latest average loss: 0.1923
+1595.2s 554 current loss 0.1674, average loss 0.2689, latest average loss: 0.1956
+1599.6s 555 current loss 0.1450, average loss 0.2686, latest average loss: 0.1845
+1604.0s 556 current loss 0.1710, average loss 0.2684, latest average loss: 0.1762
+1608.3s 557 current loss 0.1131, average loss 0.2681, latest average loss: 0.1867
+1612.7s 558 current loss 0.2227, average loss 0.2679, latest average loss: 0.1896
+1617.1s 559 current loss 0.1136, average loss 0.2676, latest average loss: 0.1853
+1621.6s 560 current loss 0.2377, average loss 0.2674, latest average loss: 0.1811
+1625.9s 561 current loss 0.1874, average loss 0.2671, latest average loss: 0.1640
+1630.3s 562 current loss 0.1549, average loss 0.2668, latest average loss: 0.1781
+1634.7s 563 current loss 0.3223, average loss 0.2666, latest average loss: 0.2085
+1639.1s 564 current loss 0.1882, average loss 0.2664, latest average loss: 0.1856
+1643.4s 565 current loss 0.1687, average loss 0.2661, latest average loss: 0.1723
+1643.4s 566 *********evaluate*********
+1669.2s 567 hamming loss: 0.1314, zero_one_loss: 0.7493
+1669.2s 568 classification report:               precision    recall  f1-score   support
+1669.2s 569 
+1669.2s 570 0       0.79      0.74      0.76       507
+1669.2s 571 1       0.44      0.26      0.32       200
+1669.2s 572 2       0.74      0.72      0.73       516
+1669.2s 573 3       0.75      0.74      0.75       283
+1669.2s 574 4       0.88      0.74      0.80       507
+1669.2s 575 5       0.60      0.50      0.54       136
+1669.2s 576 6       0.72      0.66      0.69       400
+1669.2s 577 7       0.48      0.36      0.41       166
+1669.2s 578 8       0.73      0.59      0.66       424
+1669.2s 579 9       0.77      0.13      0.22        76
+1669.2s 580 10       0.27      0.04      0.07        71
+1669.2s 581 
+1669.2s 582 micro avg       0.74      0.62      0.67      3286
+1669.2s 583 macro avg       0.65      0.50      0.54      3286
+1669.2s 584 weighted avg       0.72      0.62      0.66      3286
+1669.2s 585 samples avg       0.71      0.64      0.64      3286
+1669.2s 586 
+1669.2s 587 confusion_matrix: [[[ 762   99]
+1669.2s 588 [ 132  375]]
+1669.2s 589 
+1669.2s 590 [[1102   66]
+1669.2s 591 [ 149   51]]
+1669.2s 592 
+1669.2s 593 [[ 723  129]
+1669.2s 594 [ 142  374]]
+1669.2s 595 
+1669.2s 596 [[1017   68]
+1669.2s 597 [  74  209]]
+1669.2s 598 
+1669.2s 599 [[ 809   52]
+1669.2s 600 [ 133  374]]
+1669.2s 601 
+1669.2s 602 [[1186   46]
+1669.2s 603 [  68   68]]
+1669.2s 604 
+1669.2s 605 [[ 868  100]
+1669.2s 606 [ 138  262]]
+1669.2s 607 
+1669.2s 608 [[1136   66]
+1669.2s 609 [ 106   60]]
+1669.2s 610 
+1669.2s 611 [[ 852   92]
+1669.2s 612 [ 172  252]]
+1669.2s 613 
+1669.2s 614 [[1289    3]
+1669.2s 615 [  66   10]]
+1669.2s 616 
+1669.2s 617 [[1289    8]
+1669.2s 618 [  68    3]]]
+1669.9s 619 epoch 5
+1674.3s 620 current loss 0.1899, average loss 0.2658, latest average loss: 0.1654
+1678.7s 621 current loss 0.1908, average loss 0.2655, latest average loss: 0.1479
+1683.1s 622 current loss 0.1662, average loss 0.2653, latest average loss: 0.1812
+1687.5s 623 current loss 0.1102, average loss 0.2649, latest average loss: 0.1397
+1691.9s 624 current loss 0.2089, average loss 0.2646, latest average loss: 0.1782
+1696.3s 625 current loss 0.1419, average loss 0.2643, latest average loss: 0.1369
+1700.7s 626 current loss 0.1942, average loss 0.2639, latest average loss: 0.1343
+1705.1s 627 current loss 0.1234, average loss 0.2636, latest average loss: 0.1457
+1709.5s 628 current loss 0.1548, average loss 0.2633, latest average loss: 0.1623
+1713.9s 629 current loss 0.1478, average loss 0.2629, latest average loss: 0.1488
+1718.3s 630 current loss 0.1980, average loss 0.2626, latest average loss: 0.1532
+1722.7s 631 current loss 0.1594, average loss 0.2623, latest average loss: 0.1534
+1727.1s 632 current loss 0.0993, average loss 0.2619, latest average loss: 0.1254
+1731.5s 633 current loss 0.1082, average loss 0.2616, latest average loss: 0.1506
+1735.9s 634 current loss 0.2207, average loss 0.2613, latest average loss: 0.1519
+1740.3s 635 current loss 0.1241, average loss 0.2610, latest average loss: 0.1376
+1744.7s 636 current loss 0.1400, average loss 0.2607, latest average loss: 0.1767
+1749.1s 637 current loss 0.1647, average loss 0.2604, latest average loss: 0.1460
+1753.5s 638 current loss 0.1764, average loss 0.2602, latest average loss: 0.1710
+1757.9s 639 current loss 0.1250, average loss 0.2599, latest average loss: 0.1519
+1762.3s 640 current loss 0.2125, average loss 0.2595, latest average loss: 0.1310
+1766.7s 641 current loss 0.1293, average loss 0.2592, latest average loss: 0.1571
+1771.1s 642 current loss 0.1878, average loss 0.2590, latest average loss: 0.1652
+1775.5s 643 current loss 0.1939, average loss 0.2587, latest average loss: 0.1573
+1779.9s 644 current loss 0.0931, average loss 0.2584, latest average loss: 0.1346
+1784.3s 645 current loss 0.1394, average loss 0.2580, latest average loss: 0.1279
+1788.7s 646 current loss 0.1353, average loss 0.2577, latest average loss: 0.1486
+1793.1s 647 current loss 0.1438, average loss 0.2575, latest average loss: 0.1610
+1797.5s 648 current loss 0.1812, average loss 0.2572, latest average loss: 0.1594
+1801.9s 649 current loss 0.1529, average loss 0.2569, latest average loss: 0.1595
+1806.3s 650 current loss 0.0937, average loss 0.2567, latest average loss: 0.1553
+1810.7s 651 current loss 0.1102, average loss 0.2564, latest average loss: 0.1449
+1815.1s 652 current loss 0.2050, average loss 0.2561, latest average loss: 0.1522
+1819.5s 653 current loss 0.1690, average loss 0.2558, latest average loss: 0.1514
+1823.9s 654 current loss 0.2120, average loss 0.2556, latest average loss: 0.1628
+1828.3s 655 current loss 0.1328, average loss 0.2553, latest average loss: 0.1604
+1832.7s 656 current loss 0.0835, average loss 0.2550, latest average loss: 0.1394
+1837.1s 657 current loss 0.1065, average loss 0.2547, latest average loss: 0.1513
+1841.5s 658 current loss 0.1255, average loss 0.2544, latest average loss: 0.1471
+1845.9s 659 current loss 0.2151, average loss 0.2542, latest average loss: 0.1705
+1850.3s 660 current loss 0.1304, average loss 0.2540, latest average loss: 0.1688
+1854.7s 661 current loss 0.1994, average loss 0.2538, latest average loss: 0.1593
+1859.1s 662 current loss 0.1892, average loss 0.2536, latest average loss: 0.1821
+1863.5s 663 current loss 0.1788, average loss 0.2534, latest average loss: 0.1808
+1867.9s 664 current loss 0.2416, average loss 0.2532, latest average loss: 0.1844
+1872.3s 665 current loss 0.1534, average loss 0.2530, latest average loss: 0.1770
+1876.7s 666 current loss 0.0925, average loss 0.2527, latest average loss: 0.1395
+1881.1s 667 current loss 0.2211, average loss 0.2525, latest average loss: 0.1741
+1885.5s 668 current loss 0.1595, average loss 0.2523, latest average loss: 0.1735
+1889.9s 669 current loss 0.1177, average loss 0.2520, latest average loss: 0.1408
+1894.3s 670 current loss 0.1835, average loss 0.2518, latest average loss: 0.1687
+1898.7s 671 current loss 0.1500, average loss 0.2516, latest average loss: 0.1678
+1903.1s 672 current loss 0.1397, average loss 0.2514, latest average loss: 0.1598
+1907.5s 673 current loss 0.2169, average loss 0.2512, latest average loss: 0.1831
+1911.9s 674 current loss 0.1886, average loss 0.2510, latest average loss: 0.1764
+1916.3s 675 current loss 0.1945, average loss 0.2508, latest average loss: 0.1767
+1920.7s 676 current loss 0.1799, average loss 0.2506, latest average loss: 0.1722
+1925.1s 677 current loss 0.1641, average loss 0.2504, latest average loss: 0.1673
+1929.5s 678 current loss 0.1244, average loss 0.2501, latest average loss: 0.1446
+1933.9s 679 current loss 0.1532, average loss 0.2499, latest average loss: 0.1572
+1938.3s 680 current loss 0.2289, average loss 0.2497, latest average loss: 0.1646
+1942.7s 681 current loss 0.1077, average loss 0.2494, latest average loss: 0.1409
+1947.1s 682 current loss 0.2327, average loss 0.2492, latest average loss: 0.1670
+1951.5s 683 current loss 0.1332, average loss 0.2490, latest average loss: 0.1440
+1955.9s 684 current loss 0.2247, average loss 0.2487, latest average loss: 0.1464
+1960.3s 685 current loss 0.1315, average loss 0.2485, latest average loss: 0.1457
+1964.7s 686 current loss 0.0961, average loss 0.2482, latest average loss: 0.1499
+1969.1s 687 current loss 0.1717, average loss 0.2481, latest average loss: 0.1861
+1970.8s 688 *********evaluate*********
+1996.7s 689 hamming loss: 0.1354, zero_one_loss: 0.7683
+1996.7s 690 classification report:               precision    recall  f1-score   support
+1996.7s 691 
+1996.7s 692 0       0.77      0.78      0.78       507
+1996.7s 693 1       0.40      0.34      0.37       200
+1996.7s 694 2       0.71      0.76      0.73       516
+1996.7s 695 3       0.81      0.69      0.75       283
+1996.7s 696 4       0.76      0.90      0.82       507
+1996.7s 697 5       0.51      0.57      0.54       136
+1996.7s 698 6       0.68      0.74      0.71       400
+1996.7s 699 7       0.48      0.24      0.32       166
+1996.7s 700 8       0.75      0.57      0.65       424
+1996.7s 701 9       0.52      0.21      0.30        76
+1996.7s 702 10       0.24      0.08      0.12        71
+1996.7s 703 
+1996.7s 704 micro avg       0.70      0.66      0.68      3286
+1996.7s 705 macro avg       0.60      0.54      0.55      3286
+1996.7s 706 weighted avg       0.68      0.66      0.67      3286
+1996.7s 707 samples avg       0.71      0.69      0.66      3286
+1996.7s 708 
+1996.7s 709 confusion_matrix: [[[ 746  115]
+1996.7s 710 [ 112  395]]
+1996.7s 711 
+1996.7s 712 [[1068  100]
+1996.7s 713 [ 133   67]]
+1996.7s 714 
+1996.7s 715 [[ 694  158]
+1996.7s 716 [ 125  391]]
+1996.7s 717 
+1996.7s 718 [[1040   45]
+1996.7s 719 [  87  196]]
+1996.7s 720 
+1996.7s 721 [[ 717  144]
+1996.7s 722 [  51  456]]
+1996.7s 723 
+1996.7s 724 [[1158   74]
+1996.7s 725 [  58   78]]
+1996.7s 726 
+1996.7s 727 [[ 827  141]
+1996.7s 728 [ 103  297]]
+1996.7s 729 
+1996.7s 730 [[1159   43]
+1996.7s 731 [ 126   40]]
+1996.7s 732 
+1996.7s 733 [[ 863   81]
+1996.7s 734 [ 182  242]]
+1996.7s 735 
+1996.7s 736 [[1277   15]
+1996.7s 737 [  60   16]]
+1996.7s 738 
+1996.7s 739 [[1278   19]
+1996.7s 740 [  65    6]]]
+1997.4s 741 epoch 6
+2000.1s 742 current loss 0.1481, average loss 0.2479, latest average loss: 0.1589
+2004.5s 743 current loss 0.1738, average loss 0.2476, latest average loss: 0.1275
+2008.9s 744 current loss 0.1467, average loss 0.2473, latest average loss: 0.1319
+2013.3s 745 current loss 0.1361, average loss 0.2470, latest average loss: 0.1378
+2017.7s 746 current loss 0.1538, average loss 0.2468, latest average loss: 0.1553
+2022.1s 747 current loss 0.1647, average loss 0.2466, latest average loss: 0.1532
+2026.5s 748 current loss 0.1691, average loss 0.2464, latest average loss: 0.1625
+2031.0s 749 current loss 0.0722, average loss 0.2461, latest average loss: 0.1362
+2035.3s 750 current loss 0.1407, average loss 0.2459, latest average loss: 0.1556
+2039.7s 751 current loss 0.1319, average loss 0.2456, latest average loss: 0.1166
+2044.1s 752 current loss 0.1742, average loss 0.2453, latest average loss: 0.1376
+2048.5s 753 current loss 0.2397, average loss 0.2451, latest average loss: 0.1271
+2053.0s 754 current loss 0.1792, average loss 0.2448, latest average loss: 0.1271
+2057.4s 755 current loss 0.1542, average loss 0.2445, latest average loss: 0.1252
+2061.8s 756 current loss 0.1790, average loss 0.2443, latest average loss: 0.1431
+2066.2s 757 current loss 0.0984, average loss 0.2440, latest average loss: 0.1464
+2070.6s 758 current loss 0.1831, average loss 0.2438, latest average loss: 0.1392
+2075.0s 759 current loss 0.0992, average loss 0.2435, latest average loss: 0.1364
+2079.4s 760 current loss 0.1602, average loss 0.2433, latest average loss: 0.1335
+2083.8s 761 current loss 0.2246, average loss 0.2430, latest average loss: 0.1435
+2088.2s 762 current loss 0.0917, average loss 0.2428, latest average loss: 0.1271
+2092.6s 763 current loss 0.0627, average loss 0.2425, latest average loss: 0.1401
+2097.0s 764 current loss 0.1284, average loss 0.2422, latest average loss: 0.1183
+2101.4s 765 current loss 0.0745, average loss 0.2419, latest average loss: 0.1143
+2105.8s 766 current loss 0.1457, average loss 0.2417, latest average loss: 0.1307
+2110.2s 767 current loss 0.0955, average loss 0.2415, latest average loss: 0.1414
+2114.6s 768 current loss 0.1307, average loss 0.2412, latest average loss: 0.1187
+2119.0s 769 current loss 0.1225, average loss 0.2409, latest average loss: 0.1320
+2123.5s 770 current loss 0.1510, average loss 0.2407, latest average loss: 0.1241
+2127.8s 771 current loss 0.1091, average loss 0.2404, latest average loss: 0.1162
+2132.2s 772 current loss 0.1391, average loss 0.2401, latest average loss: 0.1287
+2136.6s 773 current loss 0.1454, average loss 0.2399, latest average loss: 0.1316
+2141.0s 774 current loss 0.2098, average loss 0.2396, latest average loss: 0.1209
+2145.4s 775 current loss 0.1591, average loss 0.2394, latest average loss: 0.1351
+2149.8s 776 current loss 0.0980, average loss 0.2392, latest average loss: 0.1561
+2154.3s 777 current loss 0.1222, average loss 0.2389, latest average loss: 0.1214
+2158.6s 778 current loss 0.1132, average loss 0.2387, latest average loss: 0.1413
+2163.0s 779 current loss 0.1443, average loss 0.2385, latest average loss: 0.1297
+2167.5s 780 current loss 0.0809, average loss 0.2382, latest average loss: 0.1305
+2171.9s 781 current loss 0.0701, average loss 0.2379, latest average loss: 0.0971
+2176.3s 782 current loss 0.0906, average loss 0.2377, latest average loss: 0.1274
+2180.7s 783 current loss 0.2019, average loss 0.2375, latest average loss: 0.1734
+2185.1s 784 current loss 0.1342, average loss 0.2373, latest average loss: 0.1323
+2189.5s 785 current loss 0.0845, average loss 0.2371, latest average loss: 0.1374
+2193.9s 786 current loss 0.1888, average loss 0.2369, latest average loss: 0.1410
+2198.3s 787 current loss 0.1489, average loss 0.2366, latest average loss: 0.1373
+2202.7s 788 current loss 0.2007, average loss 0.2364, latest average loss: 0.1400
+2207.1s 789 current loss 0.1667, average loss 0.2362, latest average loss: 0.1382
+2211.5s 790 current loss 0.1030, average loss 0.2360, latest average loss: 0.1135
+2215.9s 791 current loss 0.1790, average loss 0.2357, latest average loss: 0.1316
+2220.3s 792 current loss 0.1209, average loss 0.2355, latest average loss: 0.1532
+2224.7s 793 current loss 0.1095, average loss 0.2353, latest average loss: 0.1238
+2229.1s 794 current loss 0.1945, average loss 0.2351, latest average loss: 0.1226
+2233.5s 795 current loss 0.1092, average loss 0.2349, latest average loss: 0.1460
+2237.9s 796 current loss 0.1635, average loss 0.2347, latest average loss: 0.1391
+2242.3s 797 current loss 0.1623, average loss 0.2344, latest average loss: 0.1344
+2246.8s 798 current loss 0.1680, average loss 0.2342, latest average loss: 0.1414
+2251.1s 799 current loss 0.1521, average loss 0.2340, latest average loss: 0.1390
+2255.5s 800 current loss 0.1272, average loss 0.2338, latest average loss: 0.1338
+2259.9s 801 current loss 0.1244, average loss 0.2336, latest average loss: 0.1421
+2264.3s 802 current loss 0.0903, average loss 0.2334, latest average loss: 0.1211
+2268.7s 803 current loss 0.1010, average loss 0.2332, latest average loss: 0.1376
+2273.2s 804 current loss 0.1400, average loss 0.2330, latest average loss: 0.1232
+2277.6s 805 current loss 0.1287, average loss 0.2327, latest average loss: 0.1241
+2282.0s 806 current loss 0.1095, average loss 0.2325, latest average loss: 0.1460
+2286.4s 807 current loss 0.1250, average loss 0.2323, latest average loss: 0.1374
+2290.8s 808 current loss 0.1945, average loss 0.2322, latest average loss: 0.1601
+2295.2s 809 current loss 0.1463, average loss 0.2319, latest average loss: 0.1029
+2298.6s 810 *********evaluate*********
+2324.5s 811 hamming loss: 0.1299, zero_one_loss: 0.7624
+2324.5s 812 classification report:               precision    recall  f1-score   support
+2324.5s 813 
+2324.5s 814 0       0.77      0.78      0.77       507
+2324.5s 815 1       0.45      0.17      0.25       200
+2324.5s 816 2       0.74      0.70      0.72       516
+2324.5s 817 3       0.81      0.73      0.77       283
+2324.5s 818 4       0.86      0.80      0.83       507
+2324.5s 819 5       0.53      0.56      0.54       136
+2324.5s 820 6       0.71      0.65      0.68       400
+2324.5s 821 7       0.41      0.10      0.16       166
+2324.5s 822 8       0.79      0.54      0.64       424
+2324.5s 823 9       0.76      0.17      0.28        76
+2324.5s 824 10       0.25      0.06      0.09        71
+2324.5s 825 
+2324.5s 826 micro avg       0.75      0.61      0.67      3286
+2324.5s 827 macro avg       0.65      0.48      0.52      3286
+2324.5s 828 weighted avg       0.72      0.61      0.65      3286
+2324.5s 829 samples avg       0.73      0.63      0.64      3286
+2324.5s 830 
+2324.5s 831 confusion_matrix: [[[ 746  115]
+2324.5s 832 [ 114  393]]
+2324.5s 833 
+2324.5s 834 [[1125   43]
+2324.5s 835 [ 165   35]]
+2324.5s 836 
+2324.5s 837 [[ 728  124]
+2324.5s 838 [ 155  361]]
+2324.5s 839 
+2324.5s 840 [[1036   49]
+2324.5s 841 [  76  207]]
+2324.5s 842 
+2324.5s 843 [[ 795   66]
+2324.5s 844 [ 103  404]]
+2324.5s 845 
+2324.5s 846 [[1165   67]
+2324.5s 847 [  60   76]]
+2324.5s 848 
+2324.5s 849 [[ 864  104]
+2324.5s 850 [ 140  260]]
+2324.5s 851 
+2324.5s 852 [[1179   23]
+2324.5s 853 [ 150   16]]
+2324.5s 854 
+2324.5s 855 [[ 883   61]
+2324.5s 856 [ 194  230]]
+2324.5s 857 
+2324.5s 858 [[1288    4]
+2324.5s 859 [  63   13]]
+2324.5s 860 
+2324.5s 861 [[1285   12]
+2324.5s 862 [  67    4]]]
+2325.1s 863 epoch 7
+2325.9s 864 current loss 0.1048, average loss 0.2317, latest average loss: 0.1068
+2330.3s 865 current loss 0.1511, average loss 0.2314, latest average loss: 0.1191
+2334.8s 866 current loss 0.0453, average loss 0.2312, latest average loss: 0.1028
+2339.2s 867 current loss 0.0743, average loss 0.2309, latest average loss: 0.0983
+2343.6s 868 current loss 0.1184, average loss 0.2306, latest average loss: 0.1140
+2348.0s 869 current loss 0.1248, average loss 0.2304, latest average loss: 0.1170
+2352.4s 870 current loss 0.1664, average loss 0.2302, latest average loss: 0.1186
+2356.8s 871 current loss 0.1189, average loss 0.2299, latest average loss: 0.1094
+2361.2s 872 current loss 0.0963, average loss 0.2296, latest average loss: 0.0865
+2365.6s 873 current loss 0.1237, average loss 0.2294, latest average loss: 0.1055
+2370.0s 874 current loss 0.0914, average loss 0.2292, latest average loss: 0.1289
+2374.4s 875 current loss 0.0773, average loss 0.2289, latest average loss: 0.1030
+2378.8s 876 current loss 0.1336, average loss 0.2287, latest average loss: 0.1214
+2383.2s 877 current loss 0.1201, average loss 0.2285, latest average loss: 0.1067
+2387.6s 878 current loss 0.1197, average loss 0.2282, latest average loss: 0.1254
+2391.9s 879 current loss 0.1206, average loss 0.2280, latest average loss: 0.1226
+2396.3s 880 current loss 0.0604, average loss 0.2278, latest average loss: 0.1187
+2400.7s 881 current loss 0.0636, average loss 0.2276, latest average loss: 0.1054
+2405.1s 882 current loss 0.1086, average loss 0.2273, latest average loss: 0.1040
+2409.5s 883 current loss 0.1191, average loss 0.2271, latest average loss: 0.1307
+2413.9s 884 current loss 0.1159, average loss 0.2269, latest average loss: 0.1411
+2418.4s 885 current loss 0.1604, average loss 0.2267, latest average loss: 0.1098
+2422.7s 886 current loss 0.1094, average loss 0.2265, latest average loss: 0.1364
+2427.1s 887 current loss 0.1047, average loss 0.2263, latest average loss: 0.1172
+2431.5s 888 current loss 0.0941, average loss 0.2261, latest average loss: 0.1015
+2435.9s 889 current loss 0.0498, average loss 0.2258, latest average loss: 0.1102
+2440.3s 890 current loss 0.1241, average loss 0.2256, latest average loss: 0.1305
+2444.7s 891 current loss 0.0953, average loss 0.2254, latest average loss: 0.1002
+2449.2s 892 current loss 0.1052, average loss 0.2252, latest average loss: 0.1117
+2453.5s 893 current loss 0.1238, average loss 0.2250, latest average loss: 0.1129
+2457.9s 894 current loss 0.1037, average loss 0.2247, latest average loss: 0.1073
+2462.3s 895 current loss 0.1569, average loss 0.2245, latest average loss: 0.1092
+2466.7s 896 current loss 0.0786, average loss 0.2243, latest average loss: 0.1266
+2471.1s 897 current loss 0.1864, average loss 0.2241, latest average loss: 0.1024
+2475.5s 898 current loss 0.0892, average loss 0.2238, latest average loss: 0.0979
+2480.0s 899 current loss 0.1225, average loss 0.2236, latest average loss: 0.1253
+2484.3s 900 current loss 0.0960, average loss 0.2234, latest average loss: 0.0983
+2488.7s 901 current loss 0.1589, average loss 0.2232, latest average loss: 0.1117
+2493.1s 902 current loss 0.0892, average loss 0.2229, latest average loss: 0.1053
+2497.5s 903 current loss 0.2197, average loss 0.2228, latest average loss: 0.1366
+2501.9s 904 current loss 0.1198, average loss 0.2226, latest average loss: 0.1075
+2506.3s 905 current loss 0.1493, average loss 0.2224, latest average loss: 0.1257
+2510.7s 906 current loss 0.0718, average loss 0.2221, latest average loss: 0.0994
+2515.1s 907 current loss 0.1073, average loss 0.2219, latest average loss: 0.1247
+2519.5s 908 current loss 0.1095, average loss 0.2217, latest average loss: 0.1170
+2523.8s 909 current loss 0.0743, average loss 0.2215, latest average loss: 0.1124
+2528.3s 910 current loss 0.1117, average loss 0.2213, latest average loss: 0.0905
+2532.7s 911 current loss 0.1103, average loss 0.2211, latest average loss: 0.1129
+2537.1s 912 current loss 0.0905, average loss 0.2209, latest average loss: 0.1019
+2541.5s 913 current loss 0.0807, average loss 0.2206, latest average loss: 0.1057
+2545.9s 914 current loss 0.1037, average loss 0.2204, latest average loss: 0.1162
+2550.3s 915 current loss 0.1381, average loss 0.2202, latest average loss: 0.1055
+2554.7s 916 current loss 0.1278, average loss 0.2200, latest average loss: 0.1198
+2559.1s 917 current loss 0.0934, average loss 0.2198, latest average loss: 0.1221
+2563.5s 918 current loss 0.0637, average loss 0.2196, latest average loss: 0.1123
+2567.9s 919 current loss 0.1211, average loss 0.2195, latest average loss: 0.1370
+2572.3s 920 current loss 0.1331, average loss 0.2193, latest average loss: 0.1059
+2576.7s 921 current loss 0.0535, average loss 0.2191, latest average loss: 0.1041
+2581.1s 922 current loss 0.1206, average loss 0.2189, latest average loss: 0.1261
+2585.5s 923 current loss 0.0982, average loss 0.2187, latest average loss: 0.1091
+2589.9s 924 current loss 0.1717, average loss 0.2185, latest average loss: 0.1339
+2594.3s 925 current loss 0.1378, average loss 0.2184, latest average loss: 0.1255
+2598.7s 926 current loss 0.1489, average loss 0.2182, latest average loss: 0.1152
+2603.1s 927 current loss 0.1232, average loss 0.2180, latest average loss: 0.1215
+2607.5s 928 current loss 0.1114, average loss 0.2178, latest average loss: 0.1142
+2611.9s 929 current loss 0.1705, average loss 0.2176, latest average loss: 0.1163
+2616.3s 930 current loss 0.2015, average loss 0.2175, latest average loss: 0.1370
+2620.7s 931 current loss 0.0623, average loss 0.2172, latest average loss: 0.1004
+2625.1s 932 current loss 0.1365, average loss 0.2171, latest average loss: 0.1476
+2625.9s 933 *********evaluate*********
+2651.8s 934 hamming loss: 0.1342, zero_one_loss: 0.7705
+2651.8s 935 classification report:               precision    recall  f1-score   support
+2651.8s 936 
+2651.8s 937 0       0.77      0.75      0.76       507
+2651.8s 938 1       0.41      0.24      0.30       200
+2651.8s 939 2       0.71      0.72      0.72       516
+2651.8s 940 3       0.83      0.69      0.75       283
+2651.8s 941 4       0.81      0.84      0.83       507
+2651.8s 942 5       0.53      0.52      0.52       136
+2651.8s 943 6       0.69      0.67      0.68       400
+2651.8s 944 7       0.48      0.34      0.40       166
+2651.8s 945 8       0.74      0.61      0.67       424
+2651.8s 946 9       0.59      0.21      0.31        76
+2651.8s 947 10       0.38      0.13      0.19        71
+2651.8s 948 
+2651.8s 949 micro avg       0.72      0.64      0.68      3286
+2651.8s 950 macro avg       0.63      0.52      0.56      3286
+2651.8s 951 weighted avg       0.70      0.64      0.66      3286
+2651.8s 952 samples avg       0.71      0.66      0.65      3286
+2651.8s 953 
+2651.8s 954 confusion_matrix: [[[ 748  113]
+2651.8s 955 [ 125  382]]
+2651.8s 956 
+2651.8s 957 [[1098   70]
+2651.8s 958 [ 152   48]]
+2651.8s 959 
+2651.8s 960 [[ 700  152]
+2651.8s 961 [ 143  373]]
+2651.8s 962 
+2651.8s 963 [[1044   41]
+2651.8s 964 [  88  195]]
+2651.8s 965 
+2651.8s 966 [[ 761  100]
+2651.8s 967 [  79  428]]
+2651.8s 968 
+2651.8s 969 [[1168   64]
+2651.8s 970 [  65   71]]
+2651.8s 971 
+2651.8s 972 [[ 848  120]
+2651.8s 973 [ 131  269]]
+2651.8s 974 
+2651.8s 975 [[1141   61]
+2651.8s 976 [ 109   57]]
+2651.8s 977 
+2651.8s 978 [[ 853   91]
+2651.8s 979 [ 167  257]]
+2651.8s 980 
+2651.8s 981 [[1281   11]
+2651.8s 982 [  60   16]]
+2651.8s 983 
+2651.8s 984 [[1282   15]
+2651.8s 985 [  62    9]]]
+2652.4s 986 epoch 8
+2655.9s 987 current loss 0.1203, average loss 0.2169, latest average loss: 0.0816
+2660.3s 988 current loss 0.0630, average loss 0.2167, latest average loss: 0.1163
+2664.7s 989 current loss 0.0746, average loss 0.2164, latest average loss: 0.0823
+2669.1s 990 current loss 0.0530, average loss 0.2162, latest average loss: 0.0688
+2673.5s 991 current loss 0.0873, average loss 0.2159, latest average loss: 0.0854
+2678.0s 992 current loss 0.1045, average loss 0.2157, latest average loss: 0.0856
+2682.4s 993 current loss 0.1025, average loss 0.2155, latest average loss: 0.0780
+2686.8s 994 current loss 0.0635, average loss 0.2152, latest average loss: 0.0892
+2691.2s 995 current loss 0.1095, average loss 0.2150, latest average loss: 0.1028
+2695.6s 996 current loss 0.0518, average loss 0.2148, latest average loss: 0.0811
+2700.0s 997 current loss 0.0874, average loss 0.2146, latest average loss: 0.1016
+2704.4s 998 current loss 0.1033, average loss 0.2144, latest average loss: 0.0940
+2708.8s 999 current loss 0.0727, average loss 0.2141, latest average loss: 0.0765
+2713.2s 1000 current loss 0.0286, average loss 0.2138, latest average loss: 0.0598
+2717.6s 1001 current loss 0.1043, average loss 0.2136, latest average loss: 0.0822
+2722.0s 1002 current loss 0.1295, average loss 0.2134, latest average loss: 0.0983
+2726.4s 1003 current loss 0.1051, average loss 0.2132, latest average loss: 0.1163
+2730.8s 1004 current loss 0.0576, average loss 0.2130, latest average loss: 0.0811
+2735.2s 1005 current loss 0.1392, average loss 0.2128, latest average loss: 0.0833
+2739.6s 1006 current loss 0.0694, average loss 0.2126, latest average loss: 0.0894
+2744.1s 1007 current loss 0.1882, average loss 0.2124, latest average loss: 0.1049
+2748.4s 1008 current loss 0.0483, average loss 0.2122, latest average loss: 0.1119
+2752.8s 1009 current loss 0.0817, average loss 0.2120, latest average loss: 0.0890
+2757.2s 1010 current loss 0.0951, average loss 0.2118, latest average loss: 0.1034
+2761.6s 1011 current loss 0.0497, average loss 0.2116, latest average loss: 0.1076
+2766.0s 1012 current loss 0.0862, average loss 0.2114, latest average loss: 0.0969
+2770.4s 1013 current loss 0.1464, average loss 0.2112, latest average loss: 0.0982
+2774.9s 1014 current loss 0.1770, average loss 0.2110, latest average loss: 0.1088
+2779.2s 1015 current loss 0.0709, average loss 0.2108, latest average loss: 0.1039
+2783.6s 1016 current loss 0.0517, average loss 0.2107, latest average loss: 0.1203
+2788.0s 1017 current loss 0.0874, average loss 0.2105, latest average loss: 0.0907
+2792.4s 1018 current loss 0.1170, average loss 0.2103, latest average loss: 0.0905
+2796.8s 1019 current loss 0.0884, average loss 0.2101, latest average loss: 0.0979
+2801.2s 1020 current loss 0.1016, average loss 0.2099, latest average loss: 0.0963
+2805.7s 1021 current loss 0.0796, average loss 0.2097, latest average loss: 0.1006
+2810.0s 1022 current loss 0.1718, average loss 0.2095, latest average loss: 0.0977
+2814.4s 1023 current loss 0.0917, average loss 0.2093, latest average loss: 0.0711
+2818.8s 1024 current loss 0.0921, average loss 0.2091, latest average loss: 0.0913
+2823.2s 1025 current loss 0.0503, average loss 0.2088, latest average loss: 0.0772
+2827.6s 1026 current loss 0.0989, average loss 0.2086, latest average loss: 0.0869
+2832.0s 1027 current loss 0.0925, average loss 0.2084, latest average loss: 0.0998
+2836.5s 1028 current loss 0.1273, average loss 0.2083, latest average loss: 0.1078
+2840.8s 1029 current loss 0.1772, average loss 0.2081, latest average loss: 0.1167
+2845.2s 1030 current loss 0.0758, average loss 0.2079, latest average loss: 0.0797
+2849.6s 1031 current loss 0.0694, average loss 0.2077, latest average loss: 0.0880
+2854.0s 1032 current loss 0.0859, average loss 0.2075, latest average loss: 0.0881
+2858.4s 1033 current loss 0.1006, average loss 0.2073, latest average loss: 0.0867
+2862.8s 1034 current loss 0.1680, average loss 0.2071, latest average loss: 0.1106
+2867.3s 1035 current loss 0.2365, average loss 0.2070, latest average loss: 0.1021
+2871.7s 1036 current loss 0.0508, average loss 0.2068, latest average loss: 0.1043
+2876.1s 1037 current loss 0.0880, average loss 0.2066, latest average loss: 0.1059
+2880.5s 1038 current loss 0.1075, average loss 0.2064, latest average loss: 0.1062
+2884.9s 1039 current loss 0.1237, average loss 0.2063, latest average loss: 0.0978
+2889.3s 1040 current loss 0.1339, average loss 0.2061, latest average loss: 0.1172
+2893.7s 1041 current loss 0.1146, average loss 0.2059, latest average loss: 0.0799
+2898.1s 1042 current loss 0.0898, average loss 0.2057, latest average loss: 0.0919
+2902.5s 1043 current loss 0.1362, average loss 0.2056, latest average loss: 0.1205
+2906.9s 1044 current loss 0.1149, average loss 0.2054, latest average loss: 0.0957
+2911.3s 1045 current loss 0.1487, average loss 0.2052, latest average loss: 0.1122
+2915.7s 1046 current loss 0.1008, average loss 0.2051, latest average loss: 0.1033
+2920.1s 1047 current loss 0.0747, average loss 0.2049, latest average loss: 0.1088
+2924.5s 1048 current loss 0.0975, average loss 0.2047, latest average loss: 0.0895
+2928.9s 1049 current loss 0.0501, average loss 0.2046, latest average loss: 0.1085
+2933.3s 1050 current loss 0.0952, average loss 0.2044, latest average loss: 0.0946
+2937.7s 1051 current loss 0.2903, average loss 0.2042, latest average loss: 0.1099
+2942.1s 1052 current loss 0.1221, average loss 0.2041, latest average loss: 0.1099
+2946.5s 1053 current loss 0.0995, average loss 0.2039, latest average loss: 0.1144
+2950.9s 1054 current loss 0.2063, average loss 0.2038, latest average loss: 0.1223
+2953.4s 1055 *********evaluate*********
+2979.3s 1056 hamming loss: 0.1404, zero_one_loss: 0.7909
+2979.3s 1057 classification report:               precision    recall  f1-score   support
+2979.3s 1058 
+2979.3s 1059 0       0.84      0.64      0.73       507
+2979.3s 1060 1       0.47      0.21      0.29       200
+2979.3s 1061 2       0.75      0.66      0.70       516
+2979.3s 1062 3       0.79      0.71      0.75       283
+2979.3s 1063 4       0.73      0.91      0.81       507
+2979.3s 1064 5       0.45      0.64      0.53       136
+2979.3s 1065 6       0.65      0.75      0.70       400
+2979.3s 1066 7       0.45      0.30      0.36       166
+2979.3s 1067 8       0.67      0.65      0.66       424
+2979.3s 1068 9       0.75      0.16      0.26        76
+2979.3s 1069 10       0.41      0.10      0.16        71
+2979.3s 1070 
+2979.3s 1071 micro avg       0.70      0.64      0.66      3286
+2979.3s 1072 macro avg       0.63      0.52      0.54      3286
+2979.3s 1073 weighted avg       0.69      0.64      0.65      3286
+2979.3s 1074 samples avg       0.69      0.66      0.64      3286
+2979.3s 1075 
+2979.3s 1076 confusion_matrix: [[[ 800   61]
+2979.3s 1077 [ 184  323]]
+2979.3s 1078 
+2979.3s 1079 [[1120   48]
+2979.3s 1080 [ 158   42]]
+2979.3s 1081 
+2979.3s 1082 [[ 741  111]
+2979.3s 1083 [ 178  338]]
+2979.3s 1084 
+2979.3s 1085 [[1033   52]
+2979.3s 1086 [  82  201]]
+2979.3s 1087 
+2979.3s 1088 [[ 694  167]
+2979.3s 1089 [  48  459]]
+2979.3s 1090 
+2979.3s 1091 [[1125  107]
+2979.3s 1092 [  49   87]]
+2979.3s 1093 
+2979.3s 1094 [[ 808  160]
+2979.3s 1095 [ 101  299]]
+2979.3s 1096 
+2979.3s 1097 [[1142   60]
+2979.3s 1098 [ 117   49]]
+2979.3s 1099 
+2979.3s 1100 [[ 806  138]
+2979.3s 1101 [ 149  275]]
+2979.3s 1102 
+2979.3s 1103 [[1288    4]
+2979.3s 1104 [  64   12]]
+2979.3s 1105 
+2979.3s 1106 [[1287   10]
+2979.3s 1107 [  64    7]]]
+2979.9s 1108 epoch 9
+2981.6s 1109 current loss 0.1097, average loss 0.2036, latest average loss: 0.0966
+2986.1s 1110 current loss 0.1098, average loss 0.2035, latest average loss: 0.1014
+2990.4s 1111 current loss 0.0692, average loss 0.2033, latest average loss: 0.0952
+2994.9s 1112 current loss 0.0870, average loss 0.2031, latest average loss: 0.0875
+2999.3s 1113 current loss 0.0762, average loss 0.2029, latest average loss: 0.0759
+3003.7s 1114 current loss 0.0310, average loss 0.2027, latest average loss: 0.0785
+3008.1s 1115 current loss 0.0881, average loss 0.2025, latest average loss: 0.0946
+3012.5s 1116 current loss 0.0598, average loss 0.2023, latest average loss: 0.0671
+3016.9s 1117 current loss 0.0689, average loss 0.2021, latest average loss: 0.0742
+3021.3s 1118 current loss 0.0847, average loss 0.2019, latest average loss: 0.0786
+3025.7s 1119 current loss 0.0341, average loss 0.2017, latest average loss: 0.0697
+3030.1s 1120 current loss 0.0820, average loss 0.2015, latest average loss: 0.0703
+3034.5s 1121 current loss 0.0592, average loss 0.2013, latest average loss: 0.0853
+3038.9s 1122 current loss 0.0651, average loss 0.2011, latest average loss: 0.0882
+3043.4s 1123 current loss 0.0463, average loss 0.2009, latest average loss: 0.0837
+3047.7s 1124 current loss 0.1343, average loss 0.2007, latest average loss: 0.0747
+3052.1s 1125 current loss 0.0629, average loss 0.2005, latest average loss: 0.0707
+3056.5s 1126 current loss 0.0658, average loss 0.2003, latest average loss: 0.0612
+3060.9s 1127 current loss 0.1250, average loss 0.2001, latest average loss: 0.0979
+3065.3s 1128 current loss 0.0551, average loss 0.2000, latest average loss: 0.0910
+3069.7s 1129 current loss 0.0192, average loss 0.1998, latest average loss: 0.0663
+3074.2s 1130 current loss 0.0522, average loss 0.1996, latest average loss: 0.0821
+3078.5s 1131 current loss 0.0615, average loss 0.1994, latest average loss: 0.0828
+3082.9s 1132 current loss 0.1731, average loss 0.1992, latest average loss: 0.0984
+3087.3s 1133 current loss 0.1055, average loss 0.1991, latest average loss: 0.0918
+3091.7s 1134 current loss 0.0899, average loss 0.1989, latest average loss: 0.0806
+3096.1s 1135 current loss 0.0968, average loss 0.1987, latest average loss: 0.1072
+3100.5s 1136 current loss 0.0599, average loss 0.1986, latest average loss: 0.0876
+3105.0s 1137 current loss 0.0926, average loss 0.1984, latest average loss: 0.0781
+3109.3s 1138 current loss 0.1097, average loss 0.1982, latest average loss: 0.0721
+3113.7s 1139 current loss 0.0839, average loss 0.1980, latest average loss: 0.0933
+3118.1s 1140 current loss 0.0571, average loss 0.1978, latest average loss: 0.0818
+3122.5s 1141 current loss 0.0776, average loss 0.1976, latest average loss: 0.0635
+3126.9s 1142 current loss 0.0518, average loss 0.1974, latest average loss: 0.0742
+3131.3s 1143 current loss 0.0490, average loss 0.1972, latest average loss: 0.0641
+3135.8s 1144 current loss 0.0658, average loss 0.1971, latest average loss: 0.0840
+3140.1s 1145 current loss 0.0595, average loss 0.1969, latest average loss: 0.0743
+3144.5s 1146 current loss 0.0830, average loss 0.1967, latest average loss: 0.0590
+3148.9s 1147 current loss 0.0806, average loss 0.1965, latest average loss: 0.0727
+3153.3s 1148 current loss 0.1528, average loss 0.1963, latest average loss: 0.0809
+3157.7s 1149 current loss 0.0921, average loss 0.1961, latest average loss: 0.0570
+3162.1s 1150 current loss 0.0917, average loss 0.1959, latest average loss: 0.0779
+3166.6s 1151 current loss 0.0864, average loss 0.1957, latest average loss: 0.0880
+3170.9s 1152 current loss 0.0567, average loss 0.1956, latest average loss: 0.0847
+3175.3s 1153 current loss 0.1239, average loss 0.1954, latest average loss: 0.0717
+3179.7s 1154 current loss 0.1491, average loss 0.1952, latest average loss: 0.0914
+3184.1s 1155 current loss 0.0657, average loss 0.1951, latest average loss: 0.0857
+3188.5s 1156 current loss 0.1817, average loss 0.1949, latest average loss: 0.0920
+3192.9s 1157 current loss 0.0551, average loss 0.1947, latest average loss: 0.0908
+3197.4s 1158 current loss 0.0910, average loss 0.1946, latest average loss: 0.0973
+3201.7s 1159 current loss 0.0797, average loss 0.1945, latest average loss: 0.0938
+3206.1s 1160 current loss 0.0814, average loss 0.1943, latest average loss: 0.0884
+3210.5s 1161 current loss 0.0995, average loss 0.1941, latest average loss: 0.0931
+3214.9s 1162 current loss 0.0966, average loss 0.1940, latest average loss: 0.0759
+3219.3s 1163 current loss 0.1036, average loss 0.1938, latest average loss: 0.0909
+3223.7s 1164 current loss 0.1159, average loss 0.1937, latest average loss: 0.0891
+3228.2s 1165 current loss 0.0586, average loss 0.1935, latest average loss: 0.0761
+3232.5s 1166 current loss 0.0699, average loss 0.1933, latest average loss: 0.0728
+3236.9s 1167 current loss 0.0879, average loss 0.1931, latest average loss: 0.0810
+3241.3s 1168 current loss 0.0418, average loss 0.1930, latest average loss: 0.0875
+3245.7s 1169 current loss 0.1058, average loss 0.1929, latest average loss: 0.1079
+3250.2s 1170 current loss 0.0813, average loss 0.1927, latest average loss: 0.0741
+3254.6s 1171 current loss 0.0799, average loss 0.1925, latest average loss: 0.0868
+3259.0s 1172 current loss 0.0754, average loss 0.1924, latest average loss: 0.0968
+3263.4s 1173 current loss 0.0567, average loss 0.1922, latest average loss: 0.0623
+3267.8s 1174 current loss 0.0528, average loss 0.1920, latest average loss: 0.0801
+3272.2s 1175 current loss 0.1337, average loss 0.1919, latest average loss: 0.0975
+3276.6s 1176 current loss 0.1196, average loss 0.1917, latest average loss: 0.0807
+3280.9s 1177 current loss 0.0832, average loss 0.1916, latest average loss: 0.0804
+3280.9s 1178 *********evaluate*********
+3306.7s 1179 hamming loss: 0.1361, zero_one_loss: 0.7844
+3306.7s 1180 classification report:               precision    recall  f1-score   support
+3306.7s 1181 
+3306.7s 1182 0       0.74      0.81      0.77       507
+3306.7s 1183 1       0.41      0.33      0.36       200
+3306.7s 1184 2       0.70      0.76      0.73       516
+3306.7s 1185 3       0.83      0.66      0.73       283
+3306.7s 1186 4       0.82      0.83      0.83       507
+3306.7s 1187 5       0.61      0.43      0.51       136
+3306.7s 1188 6       0.71      0.62      0.66       400
+3306.7s 1189 7       0.45      0.30      0.36       166
+3306.7s 1190 8       0.67      0.64      0.66       424
+3306.7s 1191 9       0.54      0.17      0.26        76
+3306.7s 1192 10       0.36      0.06      0.10        71
+3306.7s 1193 
+3306.7s 1194 micro avg       0.71      0.65      0.67      3286
+3306.7s 1195 macro avg       0.62      0.51      0.54      3286
+3306.7s 1196 weighted avg       0.69      0.65      0.66      3286
+3306.7s 1197 samples avg       0.71      0.67      0.65      3286
+3306.7s 1198 
+3306.7s 1199 confusion_matrix: [[[ 718  143]
+3306.7s 1200 [  97  410]]
+3306.7s 1201 
+3306.7s 1202 [[1074   94]
+3306.7s 1203 [ 135   65]]
+3306.7s 1204 
+3306.7s 1205 [[ 687  165]
+3306.7s 1206 [ 122  394]]
+3306.7s 1207 
+3306.7s 1208 [[1047   38]
+3306.7s 1209 [  97  186]]
+3306.7s 1210 
+3306.7s 1211 [[ 768   93]
+3306.7s 1212 [  85  422]]
+3306.7s 1213 
+3306.7s 1214 [[1194   38]
+3306.7s 1215 [  77   59]]
+3306.7s 1216 
+3306.7s 1217 [[ 864  104]
+3306.7s 1218 [ 150  250]]
+3306.7s 1219 
+3306.7s 1220 [[1141   61]
+3306.7s 1221 [ 117   49]]
+3306.7s 1222 
+3306.7s 1223 [[ 813  131]
+3306.7s 1224 [ 153  271]]
+3306.7s 1225 
+3306.7s 1226 [[1281   11]
+3306.7s 1227 [  63   13]]
+3306.7s 1228 
+3306.7s 1229 [[1290    7]
+3306.7s 1230 [  67    4]]]
+3312.5s 1231 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+3312.5s 1232 warn(
+3312.5s 1233 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+3312.6s 1234 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+3313.2s 1235 [NbConvertApp] Writing 146164 bytes to __notebook__.ipynb
+3315.1s 1236 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+3315.1s 1237 warn(
+3315.1s 1238 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+3315.1s 1239 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+3316.3s 1240 [NbConvertApp] Writing 423197 bytes to __results__.html
