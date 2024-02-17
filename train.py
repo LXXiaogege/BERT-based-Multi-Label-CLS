@@ -91,11 +91,10 @@ def evaluate(args, model, tokenizer, target_names):
     test_loader = load_dataset(data_path=args.test_dir, tokenizer=tokenizer, args=args)
     pred_labels = []
     true_labels = []
-    sigmoid = torch.nn.Sigmoid()
     for batch in test_loader:
         inputs, true_label = batch
         pred = model((inputs['input_ids'].to(device), inputs['attention_mask'].to(device)))
-        probs = sigmoid(pred)
+        probs = torch.sigmoid(pred)
         y_pred = np.zeros(probs.shape)
         y_pred[np.where(probs.cpu() >= args.threshold)] = 1
 
